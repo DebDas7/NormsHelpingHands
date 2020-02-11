@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wLP-Wm-fIG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wLP-Wm-fIG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -105,7 +105,7 @@
         <!--Launch-->
         <scene sceneID="H6a-aS-2fU">
             <objects>
-                <viewController title="Launch" id="wLP-Wm-fIG" sceneMemberID="viewController">
+                <viewController title="Launch" id="wLP-Wm-fIG" customClass="SignInViewController" customModule="NormsHelpingHands" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lz2-pA-cjM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,6 +174,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="emb-hZ-7Mx"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="FBR-kI-FAa" id="eYw-r2-5S1"/>
+                        <outlet property="passwordTextField" destination="PAf-4p-f59" id="UF6-vv-13y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ffW-SK-XWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -183,7 +187,7 @@
         <scene sceneID="Pb9-vV-QEh">
             <objects>
                 <viewController id="fTL-YQ-6n7" customClass="SignUpViewController" customModule="NormsHelpingHands" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IaO-kM-Qyk" customClass="SignUp">
+                    <view key="view" contentMode="scaleToFill" id="IaO-kM-Qyk" customClass="SignUpView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
