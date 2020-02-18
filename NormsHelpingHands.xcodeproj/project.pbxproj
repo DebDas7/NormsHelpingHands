@@ -15,6 +15,7 @@
 		87DC310823EC6A49005A4138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310623EC6A49005A4138 /* Main.storyboard */; };
 		87DC310A23EC6A4C005A4138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310923EC6A4C005A4138 /* Assets.xcassets */; };
 		87DC310D23EC6A4C005A4138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310B23EC6A4C005A4138 /* LaunchScreen.storyboard */; };
+		87E3981D23FC42A500A65404 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E3981C23FC42A500A65404 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		87DC310923EC6A4C005A4138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DC310C23EC6A4C005A4138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87DC310E23EC6A4C005A4138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E3981C23FC42A500A65404 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				87DC310E23EC6A4C005A4138 /* Info.plist */,
 				87182B1323F312B9004A8438 /* SignUpViewController.swift */,
 				87182B1523F3134F004A8438 /* SignInViewController.swift */,
+				87E3981C23FC42A500A65404 /* User.swift */,
 			);
 			path = NormsHelpingHands;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				87DC310523EC6A49005A4138 /* ViewController.swift in Sources */,
 				87DC310123EC6A49005A4138 /* AppDelegate.swift in Sources */,
+				87E3981D23FC42A500A65404 /* User.swift in Sources */,
 				87182B1423F312B9004A8438 /* SignUpViewController.swift in Sources */,
 				87182B1623F3134F004A8438 /* SignInViewController.swift in Sources */,
 				87DC310323EC6A49005A4138 /* SceneDelegate.swift in Sources */,
