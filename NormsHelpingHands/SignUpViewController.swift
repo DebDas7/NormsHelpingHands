@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
+import FirebaseAuth
 
 class SignUpViewController: UIViewController {
     
@@ -40,7 +43,7 @@ class SignUpViewController: UIViewController {
         
         let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
         
-        var vaildEmail = emailPred.evaluate(with: emailField.text!)
+        let vaildEmail = emailPred.evaluate(with: emailField.text!)
         
         //checking for empty field, etc.
         if firstNameField.text!.trimmingCharacters(in: .whitespacesAndNewlines) == "" || lastNameField.text!.trimmingCharacters(in: .whitespacesAndNewlines) == "" || emailField.text!.trimmingCharacters(in: .whitespacesAndNewlines) == "" || passwordField.text!.trimmingCharacters(in: .whitespacesAndNewlines) == "" || confirmPasswordField.text!.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
@@ -68,11 +71,30 @@ class SignUpViewController: UIViewController {
         } else {
             
             //create the account
-            
-            
-            
-            //
-            
+            Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!) { (user, error) in
+
+                let ref = Database.database().reference(fromURL: "https://norms-helping-hands.firebaseio.com/")
+                let usersReference = ref.child("Users")
+                let id = usersReference.childByAutoId().key
+
+                InstanceID.instanceID().instanceID(handler: { (result, error) in
+                    let values = ["email": self.emailField.text!,
+                                  "password": self.passwordField.text!,
+                                  "firstName": self.firstNameField.text!,
+                                  "lastName":self.lastNameField.text!,
+                                  "eventsAttedned": "0"]
+                    usersReference.child(id!).setValue(values, withCompletionBlock: { (err, ref) in
+                        if err != nil {
+                            print(err.self as Any)
+                            return
+                        }
+                        print("Successfully saved user in Firebase DB")
+
+                    })
+
+                })
+
+            }
             //transition to home screen
             self.transitionToHome()
             

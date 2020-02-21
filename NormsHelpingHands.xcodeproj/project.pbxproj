@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		128CEF9D9D9BFD904ABABD1A /* Pods_NormsHelpingHands.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D678D79D01A2B3333BEBD7A8 /* Pods_NormsHelpingHands.framework */; };
 		87182B1423F312B9004A8438 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87182B1323F312B9004A8438 /* SignUpViewController.swift */; };
 		87182B1623F3134F004A8438 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87182B1523F3134F004A8438 /* SignInViewController.swift */; };
 		87DC310123EC6A49005A4138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC310023EC6A49005A4138 /* AppDelegate.swift */; };
@@ -16,9 +17,11 @@
 		87DC310A23EC6A4C005A4138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310923EC6A4C005A4138 /* Assets.xcassets */; };
 		87DC310D23EC6A4C005A4138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310B23EC6A4C005A4138 /* LaunchScreen.storyboard */; };
 		87E3981D23FC42A500A65404 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E3981C23FC42A500A65404 /* User.swift */; };
+		BD6DD92124005E9B00DF064A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD6DD92024005E9B00DF064A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E99C9C409C882B8DC96223D /* Pods-NormsHelpingHands.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NormsHelpingHands.debug.xcconfig"; path = "Target Support Files/Pods-NormsHelpingHands/Pods-NormsHelpingHands.debug.xcconfig"; sourceTree = "<group>"; };
 		87182B1323F312B9004A8438 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		87182B1523F3134F004A8438 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		87DC30FD23EC6A49005A4138 /* NormsHelpingHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NormsHelpingHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +33,9 @@
 		87DC310C23EC6A4C005A4138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87DC310E23EC6A4C005A4138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87E3981C23FC42A500A65404 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BD6DD92024005E9B00DF064A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2E3D8D6350B4EDCCED6A85E /* Pods-NormsHelpingHands.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NormsHelpingHands.release.xcconfig"; path = "Target Support Files/Pods-NormsHelpingHands/Pods-NormsHelpingHands.release.xcconfig"; sourceTree = "<group>"; };
+		D678D79D01A2B3333BEBD7A8 /* Pods_NormsHelpingHands.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NormsHelpingHands.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128CEF9D9D9BFD904ABABD1A /* Pods_NormsHelpingHands.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52DD6DB96B41AEE4FBD859D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D678D79D01A2B3333BEBD7A8 /* Pods_NormsHelpingHands.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87DC30F423EC6A49005A4138 = {
 			isa = PBXGroup;
 			children = (
 				87DC30FF23EC6A49005A4138 /* NormsHelpingHands */,
 				87DC30FE23EC6A49005A4138 /* Products */,
+				8B2FBB5DFDF0B265EE531B96 /* Pods */,
+				52DD6DB96B41AEE4FBD859D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +79,7 @@
 		87DC30FF23EC6A49005A4138 /* NormsHelpingHands */ = {
 			isa = PBXGroup;
 			children = (
+				BD6DD92024005E9B00DF064A /* GoogleService-Info.plist */,
 				87DC310023EC6A49005A4138 /* AppDelegate.swift */,
 				87DC310223EC6A49005A4138 /* SceneDelegate.swift */,
 				87DC310423EC6A49005A4138 /* ViewController.swift */,
@@ -76,6 +94,16 @@
 			path = NormsHelpingHands;
 			sourceTree = "<group>";
 		};
+		8B2FBB5DFDF0B265EE531B96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E99C9C409C882B8DC96223D /* Pods-NormsHelpingHands.debug.xcconfig */,
+				C2E3D8D6350B4EDCCED6A85E /* Pods-NormsHelpingHands.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87DC311123EC6A4C005A4138 /* Build configuration list for PBXNativeTarget "NormsHelpingHands" */;
 			buildPhases = (
+				755C80F7F35732FCDF1F1304 /* [CP] Check Pods Manifest.lock */,
 				87DC30F923EC6A49005A4138 /* Sources */,
 				87DC30FA23EC6A49005A4138 /* Frameworks */,
 				87DC30FB23EC6A49005A4138 /* Resources */,
+				378F987B2E3BD16603B994C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,12 +165,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				87DC310D23EC6A4C005A4138 /* LaunchScreen.storyboard in Resources */,
+				BD6DD92124005E9B00DF064A /* GoogleService-Info.plist in Resources */,
 				87DC310A23EC6A4C005A4138 /* Assets.xcassets in Resources */,
 				87DC310823EC6A49005A4138 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		378F987B2E3BD16603B994C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NormsHelpingHands/Pods-NormsHelpingHands-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NormsHelpingHands/Pods-NormsHelpingHands-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NormsHelpingHands/Pods-NormsHelpingHands-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		755C80F7F35732FCDF1F1304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NormsHelpingHands-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87DC30F923EC6A49005A4138 /* Sources */ = {
@@ -294,6 +367,7 @@
 		};
 		87DC311223EC6A4C005A4138 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E99C9C409C882B8DC96223D /* Pods-NormsHelpingHands.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +385,7 @@
 		};
 		87DC311323EC6A4C005A4138 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E3D8D6350B4EDCCED6A85E /* Pods-NormsHelpingHands.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
