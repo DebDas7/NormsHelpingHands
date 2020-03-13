@@ -12,5 +12,7 @@ target 'NormsHelpingHands' do
   	pod 'Firebase/Auth'
    	pod 'Firebase/Storage'
    	pod 'Firebase/Database'
-
+	pod 'FirebaseInstanceID'
+	pod 'Firebase/Storage'
+	pod 'FirebaseUI/Storage'
 end

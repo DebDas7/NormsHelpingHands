@@ -8,11 +8,14 @@
 
 import Foundation
 
-class User{
+class User {
     var email : String = ""
-    var password : String = ""
-    var confirmPassword : String = ""
+    var uid : String = ""
+    var id : String = ""
     
-    
-    
+    init(email: String, uid: String, id: String) {
+        self.email = email
+        self.uid = uid
+        self.id = id
+    }
 }

@@ -43,13 +43,17 @@ class SignUpViewController: UIViewController {
         
         let emailPred = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
         
-        let vaildEmail = emailPred.evaluate(with: emailField.text!)
+        let validEmail = emailPred.evaluate(with: emailField.text!)
         
         //checking for empty field, etc.
         if firstNameField.text!.trimmingCharacters(in: .whitespacesAndNewlines) == "" || lastNameField.text!.trimmingCharacters(in: .whitespacesAndNewlines) == "" || emailField.text!.trimmingCharacters(in: .whitespacesAndNewlines) == "" || passwordField.text!.trimmingCharacters(in: .whitespacesAndNewlines) == "" || confirmPasswordField.text!.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
-            !vaildEmail {
+            !validEmail {
             
             return "Please use UNCC email and check for empty fields"
+        }
+        
+        if passwordField.text!.count < 6  {
+            return "Your password must be 6 characters long"
         }
         
         if passwordField.text != confirmPasswordField.text {
@@ -65,7 +69,7 @@ class SignUpViewController: UIViewController {
         
         if error != nil {
             
-            //there is something wrong /w fields
+            // there is something wrong /w fields
             showError(error!)
             
         } else {
@@ -81,8 +85,11 @@ class SignUpViewController: UIViewController {
                     let values = ["email": self.emailField.text!,
                                   "password": self.passwordField.text!,
                                   "firstName": self.firstNameField.text!,
-                                  "lastName":self.lastNameField.text!,
-                                  "eventsAttedned": "0"]
+                                  "lastName": self.lastNameField.text!,
+                                  "eventsAttended": "0",
+                                  "uid": user!.user.uid,
+                                  "id": id,
+                                  "photoURL": "defaultProfileImage.jpg"]
                     usersReference.child(id!).setValue(values, withCompletionBlock: { (err, ref) in
                         if err != nil {
                             print(err.self as Any)
@@ -104,17 +111,15 @@ class SignUpViewController: UIViewController {
     
     func showError(_ message:String) {
         errorField.text = message
-        errorField.alpha = 1
+        errorField.isHidden = false
         errorField.sizeToFit()
     }
     
     func transitionToHome() {
-    
         let tabViewController = storyboard?.instantiateViewController(identifier: "TabVC")
         
         view.window?.rootViewController = tabViewController
         view.window?.makeKeyAndVisible()
-        
     }
     
 }
