@@ -56,9 +56,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJ7-h2-6KW">
-                                <rect key="frame" x="328" y="112" width="46" height="30"/>
+                                <rect key="frame" x="307" y="112" width="88" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Create Event"/>
                                 <connections>
                                     <segue destination="Bow-mn-qDH" kind="show" id="giP-Yf-hdx"/>
                                 </connections>
@@ -174,6 +174,15 @@
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                 </accessibility>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GK6-Z7-PM5">
+                                <rect key="frame" x="183" y="667" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="logOut:" destination="mki-6N-d9m" eventType="touchUpInside" id="Rqn-SA-NZW"/>
+                                    <segue destination="wLP-Wm-fIG" kind="presentation" identifier="logOutToSignIn" id="dYk-v8-DsV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <accessibility key="accessibilityConfiguration">
@@ -188,6 +197,7 @@
                     <tabBarItem key="tabBarItem" title="Profile" id="5j4-vk-4LF"/>
                     <navigationItem key="navigationItem" id="sSs-9w-Lf0"/>
                     <connections>
+                        <outlet property="logOutButton" destination="GK6-Z7-PM5" id="YJJ-IY-bGW"/>
                         <outlet property="profileImageView" destination="eLA-e6-SeL" id="H1L-uB-MjD"/>
                         <outlet property="userNameLabel" destination="ZDD-L4-EAn" id="fLI-gv-YNi"/>
                     </connections>
@@ -229,7 +239,7 @@
         <!--Launch-->
         <scene sceneID="H6a-aS-2fU">
             <objects>
-                <viewController title="Launch" id="wLP-Wm-fIG" customClass="SignInViewController" customModule="NormsHelpingHands" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Launch" modalPresentationStyle="fullScreen" id="wLP-Wm-fIG" customClass="SignInViewController" customModule="NormsHelpingHands" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lz2-pA-cjM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -440,6 +450,7 @@
                         <outlet property="firstNameField" destination="uZP-lm-sbe" id="hYg-zX-u3b"/>
                         <outlet property="lastNameField" destination="tUj-7z-DcS" id="1f8-PN-6aj"/>
                         <outlet property="passwordField" destination="n6W-Ow-aju" id="dUw-rL-27G"/>
+                        <segue destination="Swc-wO-ffe" kind="presentation" identifier="createToTab" id="Cx9-jP-MB1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yhG-ph-vJJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -467,4 +478,7 @@
             <point key="canvasLocation" x="37" y="1149"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Cx9-jP-MB1"/>
+    </inferredMetricsTieBreakers>
 </document>

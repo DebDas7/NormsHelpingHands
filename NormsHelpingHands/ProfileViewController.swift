@@ -14,6 +14,7 @@ class ProfileViewController: UIViewController, UINavigationControllerDelegate, U
     
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var userNameLabel: UILabel!
+    @IBOutlet weak var logOutButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,6 +86,17 @@ class ProfileViewController: UIViewController, UINavigationControllerDelegate, U
             print("put is complete")
         }
         
+    }
+    
+    @IBAction func logOut(_ sender: Any) {
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+        } catch let signOutError as NSError {
+            print("Error signing out: \(signOutError)")
+        }
+        
+        self.performSegue(withIdentifier: "logOutToSignIn", sender: self)
     }
 
     /*

@@ -63,16 +63,25 @@ class SignInViewController: UIViewController {
                     var email = ""
                     var key = ""
                     
-                    ref.child("Users").queryOrdered(byChild: "uid").queryEqual(toValue: uid!).observe(.value) { (querySnapshot) in
-                        
+//                    ref.child("Users").queryOrdered(byChild: "uid").queryEqual(toValue: uid!).observe(.value) { (querySnapshot) in
+//                        
+//                        if !querySnapshot.exists() { return }
+//                        
+//                        for result in querySnapshot.children {
+//                            let resultSnapshot = result as! DataSnapshot
+//                            key = resultSnapshot.key
+//                        }
+//                    }
+                    
+                    ref.child("Users").queryOrdered(byChild: "uid").queryEqual(toValue: uid!).observeSingleEvent(of: .value, with: { querySnapshot in
+
                         if !querySnapshot.exists() { return }
                         
                         for result in querySnapshot.children {
                             let resultSnapshot = result as! DataSnapshot
                             key = resultSnapshot.key
                         }
-                    }
-                    
+                    })
                     
                     ref = Database.database().reference(withPath: "Users")
                     ref.observeSingleEvent(of: .value, with: { snapshot in
@@ -82,15 +91,16 @@ class SignInViewController: UIViewController {
                         email = snapshot.childSnapshot(forPath: "\(key)/email").value! as! String
                         firstName = snapshot.childSnapshot(forPath: "\(key)/firstName").value! as! String
                         lastName = snapshot.childSnapshot(forPath: "\(key)/lastName").value! as! String
-
+                        
+                        self.currentUser = UserModel(firstName: firstName, lastName: lastName, email: email, uid: uid!, key: key)
+                        self.performSegue(withIdentifier: "signInToTab", sender: self)
                     })
                     
-                    self.currentUser = UserModel(firstName: firstName, lastName: lastName, email: email, uid: uid!, key: key)
 //
 //                    let vc = MainTabBarController()
 //                    vc.currentUser = currentUser!
 //
-                    self.performSegue(withIdentifier: "signInToTab", sender: self)
+                    
                     // in closure use self to be more explict of what you are refrencing
 //                    let tabViewController = self.storyboard?.instantiateViewController(identifier: "TabVC")
 //

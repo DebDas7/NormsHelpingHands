@@ -26,7 +26,6 @@ class MainTabBarController: UITabBarController {
 //            }
 //        }
         
-        print("hello")
-        print(currentUser!.email)
+        print(currentUser?.email)
     }
 }

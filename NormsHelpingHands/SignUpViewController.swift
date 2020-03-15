@@ -19,6 +19,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var confirmPasswordField: UITextField!
     @IBOutlet weak var errorField: UILabel!
+    var currentUser: UserModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -88,7 +89,7 @@ class SignUpViewController: UIViewController {
                                   "lastName": self.lastNameField.text!,
                                   "eventsAttended": "0",
                                   "uid": user!.user.uid,
-                                  "id": id,
+                                  "id": id!,
                                   "photoURL": "defaultProfileImage.jpg"]
                     usersReference.child(id!).setValue(values, withCompletionBlock: { (err, ref) in
                         if err != nil {
@@ -96,15 +97,13 @@ class SignUpViewController: UIViewController {
                             return
                         }
                         print("Successfully saved user in Firebase DB")
-
                     })
-
+                    self.currentUser = UserModel(firstName: self.firstNameField.text!, lastName: self.lastNameField.text!, email: self.emailField.text!, uid: user!.user.uid, key: id!)
+                    self.performSegue(withIdentifier: "createToTab", sender: self)
                 })
-
             }
             //transition to home screen
-            self.transitionToHome()
-            
+            //self.transitionToHome()
         }
         
     }
@@ -113,6 +112,12 @@ class SignUpViewController: UIViewController {
         errorField.text = message
         errorField.isHidden = false
         errorField.sizeToFit()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let tabController = segue.destination as? MainTabBarController {
+            tabController.currentUser = self.currentUser! as UserModel
+        }
     }
     
     func transitionToHome() {
