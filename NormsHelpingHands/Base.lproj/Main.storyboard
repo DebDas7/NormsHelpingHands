@@ -183,6 +183,22 @@
                                     <segue destination="wLP-Wm-fIG" kind="presentation" identifier="logOutToSignIn" id="dYk-v8-DsV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDt-Ex-dQN">
+                                <rect key="frame" x="78" y="394" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Privacy "/>
+                                <connections>
+                                    <segue destination="P15-Kd-4HK" kind="presentation" id="WZw-To-mld"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5o-Wv-LOF">
+                                <rect key="frame" x="78" y="454" width="116" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Terms of Service"/>
+                                <connections>
+                                    <segue destination="wSg-8X-lmF" kind="presentation" id="ACU-D6-rIO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <accessibility key="accessibilityConfiguration">
@@ -205,6 +221,397 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EnO-xy-yWs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="953.62318840579712" y="466.74107142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="arW-Kn-bIt">
+            <objects>
+                <viewController id="P15-Kd-4HK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aMj-Xw-va0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="8446"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mDf-x3-TFC">
+                                <rect key="frame" x="20" y="38" width="374" height="8374"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AqA-00-l2e">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="8374"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <mutableString key="text">1. WHAT INFORMATION DO WE COLLECT?
+
+
+Information collected through our Apps
+
+In Short:   We may collect information regarding your geo-location, push notifications, when you use our apps.
+
+If you use our Apps, we may also collect the following information:
+Geo-Location Information. We may request access or permission to and track location-based information from your mobile device, either continuously or while you are using our mobile application, to provide location-based services. If you wish to change our access or permissions, you may do so in your device's settings. 
+
+Push Notifications. We may request to send you push notifications regarding your account or the mobile application. If you wish to opt-out from receiving these types of communications, you may turn them off in your device's settings.
+
+
+2. HOW DO WE USE YOUR INFORMATION?
+
+In Short:  We process your information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent.
+
+We use personal information collected via our Apps for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations. We indicate the specific processing grounds we rely on next to each purpose listed below.
+
+We use the information we collect or receive:
+
+To facilitate account creation and logon process. If you choose to link your account with us to a third party account (such as your Google or Facebook account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract. See the section below headed "HOW DO WE HANDLE YOUR SOCIAL LOGINS" for further information.
+
+Request Feedback. We may use your information to request feedback and to contact you about your use of our Apps.
+
+To protect our Services. We may use your information as part of our efforts to keep our Apps safe and secure (for example, for fraud monitoring and prevention).
+
+To enable user-to-user communications. We may use your information in order to enable user-to-user communications with each user's consent.
+
+To enforce our terms, conditions and policies for Business Purposes, Legal Reasons and Contractual.
+
+To respond to legal requests and prevent harm. If we receive a subpoena or other legal request, we may need to inspect the data we hold to determine how to respond.
+
+To manage user accounts. We may use your information for the purposes of managing our account and keeping it in working order.
+                         
+To deliver services to the user. We may use your information to provide you with the requested service.
+
+To respond to user inquiries/offer support to users. We may use your information to respond to your inquiries and solve any potential issues you might have with the use of our Services.
+
+
+3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
+
+In Short:  We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations.
+
+We may process or share data based on the following legal basis:
+Consent: We may process your data if you have given us specific consent to use your personal information in a specific purpose.
+
+Legitimate Interests: We may process your data when it is reasonably necessary to achieve our legitimate business interests.
+
+Performance of a Contract: Where we have entered into a contract with you, we may process your personal information to fulfill the terms of our contract.
+
+Legal Obligations: We may disclose your information where we are legally required to do so in order to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process, such as in response to a court order or a subpoena (including in response to public authorities to meet national security or law enforcement requirements).
+
+Vital Interests: We may disclose your information where we believe it is necessary to investigate, prevent, or take action regarding potential violations of our policies, suspected fraud, situations involving potential threats to the safety of any person and illegal activities, or as evidence in litigation in which we are involved.
+More specifically, we may need to process your data or share your personal information in the following situations:
+
+Vendors, Consultants and Other Third-Party Service Providers. We may share your data with third party vendors, service providers, contractors or agents who perform services for us or on our behalf and require access to such information to do that work. Examples include: payment processing, data analysis, email delivery, hosting services, customer service and marketing efforts. We may allow selected third parties to use tracking technology on the Apps, which will enable them to collect data about how you interact with the Apps over time. This information may be used to, among other things, analyze and track data, determine the popularity of certain content and better understand online activity. Unless described in this Policy, we do not share, sell, rent or trade any of your information with third parties for their promotional purposes. 
+
+Business Transfers. We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
+
+Third-Party Advertisers. We may use third-party advertising companies to serve ads when you visit the Apps. These companies may use information about your visits to our Website(s) and other websites that are contained in web cookies and other tracking technologies in order to provide advertisements about goods and services of interest to you. 
+
+Affiliates. We may share your information with our affiliates, in which case we will require those affiliates to honor this privacy notice. Affiliates include our parent company and any subsidiaries, joint venture partners or other companies that we control or that are under common control with us.
+
+Business Partners. We may share your information with our business partners to offer you certain products, services or promotions.
+
+
+4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+In Short:  We may use cookies and other tracking technologies to collect and store your information.
+
+We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Policy.
+
+
+
+5. HOW DO WE HANDLE YOUR SOCIAL LOGINS?
+
+In Short:  If you choose to register or log in to our services using a social media account, we may have access to certain information about you.
+
+Our Apps offer you the ability to register and login using your third party social media account details (like your Facebook or Twitter logins). Where you choose to do this, we will receive certain profile information about you from your social media provider. The profile Information we receive may vary depending on the social media provider concerned, but will often include your name, e-mail address, friends list, profile picture as well as other information you choose to make public.
+
+We will use the information we receive only for the purposes that are described in this privacy notice or that are otherwise made clear to you on the Apps. Please note that we do not control, and are not responsible for, other uses of your personal information by your third party social media provider. We recommend that you review their privacy policy to understand how they collect, use and share your personal information, and how you can set your privacy preferences on their sites and apps.
+
+
+
+6. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?
+
+In Short:  We are not responsible for the safety of any information that you share with third-party providers who advertise, but are not affiliated with, our websites.
+
+The Apps may contain advertisements from third parties that are not affiliated with us and which may link to other websites, online services or mobile applications. We cannot guarantee the safety and privacy of data you provide to any third parties. Any data collected by third parties is not covered by this privacy notice. We are not responsible for the content or privacy and security practices and policies of any third parties, including other websites, services or applications that may be linked to or from the Apps. You should review the policies of such third parties and contact them directly to respond to your questions.
+
+
+
+7. HOW LONG DO WE KEEP YOUR INFORMATION?
+
+In Short:  We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law.
+
+We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting or other legal requirements). No purpose in this policy will require us keeping your personal information for longer than the period of time in which users have an account with us.
+
+When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize it, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
+
+
+8. HOW DO WE KEEP YOUR INFORMATION SAFE?
+
+In Short:  We aim to protect your personal information through a system of organizational and technical security measures.
+
+We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. However, please also remember that we cannot guarantee that the internet itself is 100% secure. Although we will do our best to protect your personal information, transmission of personal information to and from our Apps is at your own risk. You should only access the services within a secure environment.
+
+
+
+9. DO WE COLLECT INFORMATION FROM MINORS?
+
+In Short:  We do not knowingly collect data from or market to children under 18 years of age.
+
+We do not knowingly solicit data from or market to children under 18 years of age. By using the Apps, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Apps. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at __________.
+
+
+
+10. WHAT ARE YOUR PRIVACY RIGHTS?
+
+In Short:  You may review, change, or terminate your account at any time.
+
+If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details here: http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.
+
+If you have questions or comments about your privacy rights, you may email us at admin@normshelpinghands.com.
+
+
+Account Information
+If you would at any time like to review or change the information in your account or terminate your account, you can:
+
+    ■  Log into your account settings and update your user account.
+
+Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, some information may be retained in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our Terms of Use and/or comply with legal requirements.
+
+Cookies and similar technologies: Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Apps. To opt-out of interest-based advertising by advertisers on our Apps visit http://www.aboutads.info/choices/.
+
+Opting out of email marketing: You can unsubscribe from our marketing email list at any time by clicking on the unsubscribe link in the emails that we send or by contacting us using the details provided below. You will then be removed from the marketing email list – however, we will still need to send you service-related emails that are necessary for the administration and use of your account. To otherwise opt-out, you may:
+
+    ■  Access your account settings and update preferences.
+
+
+
+11. CONTROLS FOR DO-NOT-TRACK FEATURES
+
+Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. No uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
+
+
+
+12. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+
+In Short:  Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.
+
+California Civil Code Section 1798.83, also known as the “Shine The Light” law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.
+
+If you are under 18 years of age, reside in California, and have a registered account with the Apps, you have the right to request removal of unwanted data that you publicly post on the Apps. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Apps, but please be aware that the data may not be completely or comprehensively removed from our systems.
+
+
+
+13. DO WE MAKE UPDATES TO THIS POLICY?
+
+In Short:  Yes, we will update this policy as necessary to stay compliant with relevant laws.
+
+We may update this privacy notice from time to time. The updated version will be indicated by an updated “Revised” date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
+
+
+
+14. HOW CAN YOU CONTACT US ABOUT THIS POLICY?
+
+If you have questions or comments about this policy, you may contact our Data Protection Officer (DPO), __________, by email at __________, or by post to:
+
+Norms Helping Hands 
+__________
+__________
+__________
+
+
+HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
+
+Based on the laws of some countries, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: normshelpinghands.com. We will respond to your request within 30 days.</mutableString>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="zDZ-bt-o4N"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="uzP-Nu-oa5"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mDf-x3-TFC" firstAttribute="leading" secondItem="tLD-Sb-J2O" secondAttribute="leading" constant="20" id="JPc-nK-TzH"/>
+                            <constraint firstItem="mDf-x3-TFC" firstAttribute="top" secondItem="tLD-Sb-J2O" secondAttribute="top" constant="38" id="d6j-OO-8b4"/>
+                            <constraint firstItem="tLD-Sb-J2O" firstAttribute="trailing" secondItem="mDf-x3-TFC" secondAttribute="trailing" constant="20" id="nbI-If-R61"/>
+                            <constraint firstItem="mDf-x3-TFC" firstAttribute="bottom" secondItem="tLD-Sb-J2O" secondAttribute="bottom" id="pkT-uz-21C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tLD-Sb-J2O"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="8500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kGK-fi-S9r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1879.7101449275365" y="79.6875"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fgQ-dX-GHd">
+            <objects>
+                <viewController id="wSg-8X-lmF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g72-O1-UbI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="8446"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HuH-ZB-02X">
+                                <rect key="frame" x="20" y="20" width="374" height="8392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="piB-4F-08p">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="8392"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <mutableString key="text">END USER LICENSE AGREEMENT
+
+Last updated March 26, 2020
+
+
+ 
+NormsHelpingHands is licensed to You (End-User) by Realization, located at 9201 University City Blvd, Charlotte, North Carolina 28223, United States (hereinafter: Licensor), for use only under the terms of this License Agreement.
+ 
+By downloading the Application from the Apple AppStore, and any update thereto (as permitted by this License Agreement), You indicate that You agree to be bound by all of the terms and conditions of this License Agreement, and that You accept this License Agreement.
+ 
+The parties of this License Agreement acknowledge that Apple is not a Party to this License Agreement and is not bound by any provisions or obligations with regard to the Application, such as warranty, liability, maintenance and support thereof. Realization, not Apple, is solely responsible for the licensed Application and the content thereof.
+ 
+This License Agreement may not provide for usage rules for the Application that are in conflict with the latest App Store Terms of Service. Realization acknowledges that it had the opportunity to review said terms and this License Agreement is not conflicting with them.
+
+All rights not expressly granted to You are reserved.
+
+
+1. THE APPLICATION
+ 
+NormsHelpingHands (hereinafter: Application) is a piece of software created to provide a platform to encourage engagement in the UNC Charlotte community - and customized for Apple mobile devices. It is used to create and volunteer for events within the community .
+
+The Application is not tailored to comply with industry-specific regulations (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.), so if your interactions would be subjected to such laws, you may not use this Application. You may not use the Application in a way that would violate the Gramm-Leach-Bliley Act (GLBA).
+
+
+2. SCOPE OF LICENSE
+ 
+2.1  You are given a non-transferable, non-exclusive, non-sublicensable license to install and use the Licensed Application on any Apple-branded Products that You (End-User) own or control and as permitted by the Usage Rules set forth in this section and the App Store Terms of Service, with the exception that such licensed Application may be accessed and used by other accounts associated with You (End-User, The Purchaser) via Family Sharing or volume purchasing.
+
+2.2  This license will also govern any updates of the Application provided by Licensor that replace, repair, and/or supplement the first Application, unless a separate license is provided for such update in which case the terms of that new license will govern.
+
+2.3  You may not share or make the Application available to third parties (unless to the degree allowed by the Apple Terms and Conditions, and with Realization's prior written consent), sell, rent, lend, lease or otherwise redistribute the Application.
+
+2.4  You may not reverse engineer, translate, disassemble, integrate, decompile, integrate, remove, modify, combine, create derivative works or updates of, adapt, or attempt to derive the source code of the Application, or any part thereof (except with Realization's prior written consent).
+
+2.5  You may not copy (excluding when expressly authorized by this license and the Usage Rules) or alter the Application or portions thereof. You may create and store copies only on devices that You own or control for backup keeping under the terms of this license, the App Store Terms of Service, and any other terms and conditions that apply to the device or software used. You may not remove any intellectual property notices. You acknowledge that no unauthorized third parties may gain access to these copies at any time.
+
+2.6  Violations of the obligations mentioned above, as well as the attempt of such infringement, may be subject to prosecution and damages.
+
+2.7  Licensor reserves the right to modify the terms and conditions of licensing.
+
+2.8  Nothing in this license should be interpreted to restrict third-party terms. When using the Application, You must ensure that You comply with applicable third-party terms and conditions.
+   
+
+3. TECHNICAL REQUIREMENTS
+
+3.1  The Application requires a firmware version 1.0.0 or higher. Licensor recommends using the latest version of the firmware.
+
+3.2  Licensor attempts to keep the Application updated so that it complies with modified/new versions of the firmware and new hardware. You are not granted rights to claim such an update.
+
+3.3  You acknowledge that it is Your responsibility to confirm and determine that the app end-user device on which You intend to use the Application satisfies the technical  specifications mentioned above.
+
+3.4  Licensor reserves the right to modify the technical specifications as it sees appropriate at any time.
+
+
+4. MAINTENANCE AND SUPPORT
+
+4.1  The Licensor is solely responsible for providing any maintenance and support services for this licensed Application. You can reach the Licensor at the email address listed in the App Store Overview for this licensed Application.
+
+4.2  Realization and the End-User acknowledge that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the licensed Application.
+
+
+5. LIABILITY
+
+5.1  Licensor's responsibility in the case of violation of obligations and tort shall be limited to intent and gross negligence. Only in case of a breach of essential contractual duties (cardinal obligations), Licensor shall also be liable in case of slight negligence. In any case, liability shall be limited to the foreseeable, contractually typical damages. The limitation mentioned above does not apply to injuries to life, limb, or health.
+
+5.2  Licensor takes no accountability or responsibility for any damages caused due to a breach of duties according to Section 2 of this Agreement. To avoid data loss, You are required to make use of backup functions of the Application to the extent allowed by applicable third-party terms and conditions of use. You are aware that in case of alterations or manipulations of the Application, You will not have access to licensed Application.
+
+
+6. WARRANTY
+
+6.1  Licensor warrants that the Application is free of spyware, trojan horses, viruses, or any other malware at the time of Your download. Licensor warrants that the Application works as described in the user documentation.
+
+6.2  No warranty is provided for the Application that is not executable on the device, that has been unauthorizedly modified, handled inappropriately or culpably, combined or installed with inappropriate hardware or software, used with inappropriate accessories, regardless if by Yourself or by third parties, or if there are any other reasons outside of Realization's sphere of influence that affect the executability of the Application.
+
+6.3  You are required to inspect the Application immediately after installing it and notify Realization about issues discovered without delay by e-mail provided in Product Claims. The defect report will be taken into consideration and further investigated if it has been mailed within a period of one hundred twenty (120) days after discovery.
+
+6.4  If we confirm that the Application is defective, Realization reserves a choice to remedy the situation either by means of solving the defect or substitute delivery.
+
+6.5  In the event of any failure of the Application to conform to any applicable warranty, You may notify the App-Store-Operator, and Your Application purchase price will be refunded to You. To the maximum extent permitted by applicable law, the App-Store-Operator will have no other warranty obligation whatsoever with respect to the App, and any other losses, claims, damages, liabilities, expenses and costs attributable to any negligence to adhere to any warranty.
+           
+6.6  If the user is an entrepreneur, any claim based on faults expires after a statutory period of limitation amounting to twelve (12) months after the Application was made available to the user. The statutory periods of limitation given by law apply for users who are consumers.
+
+           
+7. PRODUCT CLAIMS
+ 
+Realization and the End-User acknowledge that Realization, and not Apple, is responsible for addressing any claims of the End-User or any third party relating to the licensed Application or the End-User’s possession and/or use of that licensed Application, including, but not limited to:
+ 
+(i) product liability claims;
+           
+(ii) any claim that the licensed Application fails to conform to any applicable legal or regulatory requirement; and
+           
+(iii) claims arising under consumer protection, privacy, or similar legislation, including in connection with Your Licensed Application’s use of the HealthKit and HomeKit.
+
+   
+8. LEGAL COMPLIANCE
+    
+You represent and warrant that You are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a "terrorist supporting" country; and that You are not listed on any U.S. Government list of prohibited or restricted parties.
+
+   
+9. CONTACT INFORMATION                  
+     
+For general inquiries, complaints, questions or claims concerning the licensed Application, please contact:
+     
+__________
+__________
+__________, __________ __________
+__________
+__________
+
+
+10. TERMINATION
+    
+The license is valid until terminated by Realization or by You. Your rights under this license will terminate automatically and without notice from Realization if You fail to adhere to any term(s) of this license. Upon License termination, You shall stop all use of the Application, and destroy all copies, full or partial, of the Application.
+
+
+11. THIRD-PARTY TERMS OF AGREEMENTS AND BENEFICIARY
+ 
+Realization represents and warrants that Realization will comply with applicable third-party terms of agreement when using licensed Application.
+ 
+In Accordance with Section 9 of the "Instructions for Minimum Terms of Developer's End-User License Agreement," Apple and Apple's subsidiaries shall be third-party beneficiaries of this End User License Agreement and - upon Your acceptance of the terms and conditions of this license agreement, Apple will have the right (and will be deemed to have accepted the right) to enforce this End User License Agreement against You as a third-party beneficiary thereof.
+ 
+
+12. INTELLECTUAL PROPERTY RIGHTS
+ 
+Realization and the End-User acknowledge that, in the event of any third-party claim that the licensed Application or the End-User's possession and use of that licensed Application infringes on the third party's intellectual property rights, Realization, and not Apple, will be solely responsible for the investigation, defense, settlement and discharge or any such intellectual property infringement claims.
+ 
+
+13. APPLICABLE LAW
+ 
+This license agreement is governed by the laws of the State of North Carolina excluding its conflicts of law rules.
+ 
+
+14. MISCELLANEOUS
+          
+14.1  If any of the terms of this agreement should be or become invalid, the validity of the remaining provisions shall not be affected. Invalid terms will be replaced by valid ones formulated in a way that will achieve the primary purpose.
+             
+14.2  Collateral agreements, changes and amendments are only valid if laid down in writing. The preceding clause can only be waived in writing.
+
+</mutableString>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="HNM-7E-xVG"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="9Ps-Of-U1D"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fPc-ZI-1Nr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PMu-5E-l1q"/>
+                    <size key="freeformSize" width="414" height="8500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sHB-Td-Uy6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2530.434782608696" y="79.6875"/>
         </scene>
         <!--Leaderboard-->
         <scene sceneID="g9b-yi-JJ3">
