@@ -210,38 +210,6 @@
             endingLineNumber = "79"
             landmarkName = "onCreateAccountClicked(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E979D943-A0AA-4A87-868D-DF6854442E42 - a2b07325b2344597"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NormsHelpingHands.SignUpViewController.onCreateAccountClicked(__C.UIButton) -&gt; ()"
-                  moduleName = "NormsHelpingHands"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/georgevcr2/Desktop/NormsHelpingHands/NormsHelpingHands/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "536">
-               </Location>
-               <Location
-                  uuid = "E979D943-A0AA-4A87-868D-DF6854442E42 - 955dcbb6c15e9f3b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NormsHelpingHands.SignUpViewController.onCreateAccountClicked(__C.UIButton) -&gt; ()"
-                  moduleName = "NormsHelpingHands"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/georgevcr2/Desktop/NormsHelpingHands/NormsHelpingHands/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "136">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -274,38 +242,6 @@
             endingLineNumber = "85"
             landmarkName = "onCreateAccountClicked(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "44B83037-409A-47F2-9F9D-56A28A864C54 - 955dcbb6c15e9f3b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NormsHelpingHands.SignUpViewController.onCreateAccountClicked(__C.UIButton) -&gt; ()"
-                  moduleName = "NormsHelpingHands"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/georgevcr2/Desktop/NormsHelpingHands/NormsHelpingHands/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "743">
-               </Location>
-               <Location
-                  uuid = "44B83037-409A-47F2-9F9D-56A28A864C54 - 2a4e00c082d790ad"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRInstanceIDResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NormsHelpingHands.SignUpViewController.onCreateAccountClicked(__C.UIButton) -&gt; ()"
-                  moduleName = "NormsHelpingHands"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/georgevcr2/Desktop/NormsHelpingHands/NormsHelpingHands/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
-                  offsetFromSymbolStart = "321">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -338,38 +274,6 @@
             endingLineNumber = "94"
             landmarkName = "onCreateAccountClicked(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CE7E6B7E-F44F-4D82-813B-A018E807ABCA - 2a4e00c082d790ad"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRInstanceIDResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NormsHelpingHands.SignUpViewController.onCreateAccountClicked(__C.UIButton) -&gt; ()"
-                  moduleName = "NormsHelpingHands"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/georgevcr2/Desktop/NormsHelpingHands/NormsHelpingHands/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "94"
-                  endingLineNumber = "94"
-                  offsetFromSymbolStart = "3873">
-               </Location>
-               <Location
-                  uuid = "CE7E6B7E-F44F-4D82-813B-A018E807ABCA - c529a029c9cdf78b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, __C.FIRDatabaseReference) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRInstanceIDResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NormsHelpingHands.SignUpViewController.onCreateAccountClicked(__C.UIButton) -&gt; ()"
-                  moduleName = "NormsHelpingHands"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/georgevcr2/Desktop/NormsHelpingHands/NormsHelpingHands/SignUpViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "95"
-                  endingLineNumber = "95"
-                  offsetFromSymbolStart = "85">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

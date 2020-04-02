@@ -8,30 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		128CEF9D9D9BFD904ABABD1A /* Pods_NormsHelpingHands.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D678D79D01A2B3333BEBD7A8 /* Pods_NormsHelpingHands.framework */; };
-		871078452434583B005B244F /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871078432434583B005B244F /* LeaderBoardViewController.swift */; };
-		871078462434583B005B244F /* LeaderBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 871078442434583B005B244F /* LeaderBoardViewController.xib */; };
-		87182B1423F312B9004A8438 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87182B1323F312B9004A8438 /* SignUpViewController.swift */; };
-		87182B1623F3134F004A8438 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87182B1523F3134F004A8438 /* SignInViewController.swift */; };
 		87DC310123EC6A49005A4138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC310023EC6A49005A4138 /* AppDelegate.swift */; };
 		87DC310323EC6A49005A4138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC310223EC6A49005A4138 /* SceneDelegate.swift */; };
 		87DC310523EC6A49005A4138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC310423EC6A49005A4138 /* ViewController.swift */; };
 		87DC310823EC6A49005A4138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310623EC6A49005A4138 /* Main.storyboard */; };
 		87DC310A23EC6A4C005A4138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310923EC6A4C005A4138 /* Assets.xcassets */; };
 		87DC310D23EC6A4C005A4138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310B23EC6A4C005A4138 /* LaunchScreen.storyboard */; };
-		99556102241741C000016425 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99556101241741C000016425 /* ExploreViewController.swift */; };
-		9955610524174ACF00016425 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955610424174ACF00016425 /* CreateEventViewController.swift */; };
-		99556107241A737D00016425 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99556106241A737D00016425 /* ProfileViewController.swift */; };
-		99556109241AF6D600016425 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99556108241AF6D600016425 /* UserModel.swift */; };
-		99DACFAD241BE77A00D114E8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DACFAC241BE77A00D114E8 /* MainTabBarController.swift */; };
-		BD9F5FE3241F294A00EDB3A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9F5FE2241F294A00EDB3A0 /* GoogleService-Info.plist */; };
+		996A8B1924359C9200F5E343 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B0D24359C9100F5E343 /* EventListViewController.swift */; };
+		996A8B1A24359C9200F5E343 /* PostPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B0E24359C9100F5E343 /* PostPageViewController.swift */; };
+		996A8B1B24359C9200F5E343 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B0F24359C9100F5E343 /* MainTabBarController.swift */; };
+		996A8B1C24359C9200F5E343 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B1024359C9100F5E343 /* ExploreViewController.swift */; };
+		996A8B1D24359C9200F5E343 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B1124359C9200F5E343 /* CreateEventViewController.swift */; };
+		996A8B1E24359C9200F5E343 /* EventViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B1224359C9200F5E343 /* EventViewCell.swift */; };
+		996A8B1F24359C9200F5E343 /* JoinedEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B1324359C9200F5E343 /* JoinedEventsViewController.swift */; };
+		996A8B2024359C9200F5E343 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B1424359C9200F5E343 /* ProfileViewController.swift */; };
+		996A8B2124359C9200F5E343 /* MyEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B1524359C9200F5E343 /* MyEventsViewController.swift */; };
+		996A8B2224359C9200F5E343 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B1624359C9200F5E343 /* SignInViewController.swift */; };
+		996A8B2324359C9200F5E343 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B1724359C9200F5E343 /* UserModel.swift */; };
+		996A8B2424359C9200F5E343 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996A8B1824359C9200F5E343 /* SignUpViewController.swift */; };
+		996A8B2824359D9900F5E343 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 996A8B2724359D9900F5E343 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E99C9C409C882B8DC96223D /* Pods-NormsHelpingHands.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NormsHelpingHands.debug.xcconfig"; path = "Target Support Files/Pods-NormsHelpingHands/Pods-NormsHelpingHands.debug.xcconfig"; sourceTree = "<group>"; };
-		871078432434583B005B244F /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
-		871078442434583B005B244F /* LeaderBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaderBoardViewController.xib; sourceTree = "<group>"; };
-		87182B1323F312B9004A8438 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		87182B1523F3134F004A8438 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		87DC30FD23EC6A49005A4138 /* NormsHelpingHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NormsHelpingHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DC310023EC6A49005A4138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87DC310223EC6A49005A4138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,12 +39,19 @@
 		87DC310923EC6A4C005A4138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DC310C23EC6A4C005A4138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87DC310E23EC6A4C005A4138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99556101241741C000016425 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
-		9955610424174ACF00016425 /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
-		99556106241A737D00016425 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		99556108241AF6D600016425 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		99DACFAC241BE77A00D114E8 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		BD9F5FE2241F294A00EDB3A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		996A8B0D24359C9100F5E343 /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventListViewController.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/EventListViewController.swift; sourceTree = "<group>"; };
+		996A8B0E24359C9100F5E343 /* PostPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostPageViewController.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/PostPageViewController.swift; sourceTree = "<group>"; };
+		996A8B0F24359C9100F5E343 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/MainTabBarController.swift; sourceTree = "<group>"; };
+		996A8B1024359C9100F5E343 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExploreViewController.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/ExploreViewController.swift; sourceTree = "<group>"; };
+		996A8B1124359C9200F5E343 /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateEventViewController.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/CreateEventViewController.swift; sourceTree = "<group>"; };
+		996A8B1224359C9200F5E343 /* EventViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventViewCell.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/EventViewCell.swift; sourceTree = "<group>"; };
+		996A8B1324359C9200F5E343 /* JoinedEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JoinedEventsViewController.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/JoinedEventsViewController.swift; sourceTree = "<group>"; };
+		996A8B1424359C9200F5E343 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/ProfileViewController.swift; sourceTree = "<group>"; };
+		996A8B1524359C9200F5E343 /* MyEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyEventsViewController.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/MyEventsViewController.swift; sourceTree = "<group>"; };
+		996A8B1624359C9200F5E343 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/SignInViewController.swift; sourceTree = "<group>"; };
+		996A8B1724359C9200F5E343 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/UserModel.swift; sourceTree = "<group>"; };
+		996A8B1824359C9200F5E343 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../../../../../Volumes/STANDARD/other/2020.04.01/NormsHelpingHands/NormsHelpingHands/SignUpViewController.swift; sourceTree = "<group>"; };
+		996A8B2724359D9900F5E343 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C2E3D8D6350B4EDCCED6A85E /* Pods-NormsHelpingHands.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NormsHelpingHands.release.xcconfig"; path = "Target Support Files/Pods-NormsHelpingHands/Pods-NormsHelpingHands.release.xcconfig"; sourceTree = "<group>"; };
 		D678D79D01A2B3333BEBD7A8 /* Pods_NormsHelpingHands.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NormsHelpingHands.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,7 +97,7 @@
 		87DC30FF23EC6A49005A4138 /* NormsHelpingHands */ = {
 			isa = PBXGroup;
 			children = (
-				BD9F5FE2241F294A00EDB3A0 /* GoogleService-Info.plist */,
+				996A8B2724359D9900F5E343 /* GoogleService-Info.plist */,
 				87DC310023EC6A49005A4138 /* AppDelegate.swift */,
 				87DC310223EC6A49005A4138 /* SceneDelegate.swift */,
 				87DC310423EC6A49005A4138 /* ViewController.swift */,
@@ -100,15 +106,6 @@
 				87DC310B23EC6A4C005A4138 /* LaunchScreen.storyboard */,
 				87DC310E23EC6A4C005A4138 /* Info.plist */,
 				99556103241743A900016425 /* ViewControllers */,
-				87182B1323F312B9004A8438 /* SignUpViewController.swift */,
-				87182B1523F3134F004A8438 /* SignInViewController.swift */,
-				99556101241741C000016425 /* ExploreViewController.swift */,
-				9955610424174ACF00016425 /* CreateEventViewController.swift */,
-				99556106241A737D00016425 /* ProfileViewController.swift */,
-				99DACFAC241BE77A00D114E8 /* MainTabBarController.swift */,
-				99556108241AF6D600016425 /* UserModel.swift */,
-				871078432434583B005B244F /* LeaderBoardViewController.swift */,
-				871078442434583B005B244F /* LeaderBoardViewController.xib */,
 			);
 			path = NormsHelpingHands;
 			sourceTree = "<group>";
@@ -125,6 +122,18 @@
 		99556103241743A900016425 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				996A8B1824359C9200F5E343 /* SignUpViewController.swift */,
+				996A8B1624359C9200F5E343 /* SignInViewController.swift */,
+				996A8B1024359C9100F5E343 /* ExploreViewController.swift */,
+				996A8B1124359C9200F5E343 /* CreateEventViewController.swift */,
+				996A8B1424359C9200F5E343 /* ProfileViewController.swift */,
+				996A8B0F24359C9100F5E343 /* MainTabBarController.swift */,
+				996A8B0E24359C9100F5E343 /* PostPageViewController.swift */,
+				996A8B0D24359C9100F5E343 /* EventListViewController.swift */,
+				996A8B1224359C9200F5E343 /* EventViewCell.swift */,
+				996A8B1724359C9200F5E343 /* UserModel.swift */,
+				996A8B1524359C9200F5E343 /* MyEventsViewController.swift */,
+				996A8B1324359C9200F5E343 /* JoinedEventsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -190,8 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87DC310D23EC6A4C005A4138 /* LaunchScreen.storyboard in Resources */,
-				BD9F5FE3241F294A00EDB3A0 /* GoogleService-Info.plist in Resources */,
-				871078462434583B005B244F /* LeaderBoardViewController.xib in Resources */,
+				996A8B2824359D9900F5E343 /* GoogleService-Info.plist in Resources */,
 				87DC310A23EC6A4C005A4138 /* Assets.xcassets in Resources */,
 				87DC310823EC6A49005A4138 /* Main.storyboard in Resources */,
 			);
@@ -247,16 +255,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				87DC310523EC6A49005A4138 /* ViewController.swift in Sources */,
+				996A8B2124359C9200F5E343 /* MyEventsViewController.swift in Sources */,
+				996A8B1924359C9200F5E343 /* EventListViewController.swift in Sources */,
+				996A8B1F24359C9200F5E343 /* JoinedEventsViewController.swift in Sources */,
+				996A8B1B24359C9200F5E343 /* MainTabBarController.swift in Sources */,
+				996A8B2224359C9200F5E343 /* SignInViewController.swift in Sources */,
 				87DC310123EC6A49005A4138 /* AppDelegate.swift in Sources */,
-				99DACFAD241BE77A00D114E8 /* MainTabBarController.swift in Sources */,
-				87182B1423F312B9004A8438 /* SignUpViewController.swift in Sources */,
-				87182B1623F3134F004A8438 /* SignInViewController.swift in Sources */,
-				99556102241741C000016425 /* ExploreViewController.swift in Sources */,
-				99556107241A737D00016425 /* ProfileViewController.swift in Sources */,
-				871078452434583B005B244F /* LeaderBoardViewController.swift in Sources */,
+				996A8B1A24359C9200F5E343 /* PostPageViewController.swift in Sources */,
+				996A8B2324359C9200F5E343 /* UserModel.swift in Sources */,
+				996A8B2424359C9200F5E343 /* SignUpViewController.swift in Sources */,
+				996A8B2024359C9200F5E343 /* ProfileViewController.swift in Sources */,
+				996A8B1E24359C9200F5E343 /* EventViewCell.swift in Sources */,
+				996A8B1C24359C9200F5E343 /* ExploreViewController.swift in Sources */,
 				87DC310323EC6A49005A4138 /* SceneDelegate.swift in Sources */,
-				99556109241AF6D600016425 /* UserModel.swift in Sources */,
-				9955610524174ACF00016425 /* CreateEventViewController.swift in Sources */,
+				996A8B1D24359C9200F5E343 /* CreateEventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
