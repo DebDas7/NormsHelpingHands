@@ -24,7 +24,7 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func QUICKSIGNIN(_ sender: Any) {
-        self.emailTextField.text = "fasdfascsxcvx@uncc.edu"
+        self.emailTextField.text = "gname@uncc.edu"
         self.passwordTextField.text = "123456"
         signinTapped("TESTING ONLY")
     }

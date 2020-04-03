@@ -18,14 +18,14 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mDf-x3-TFC">
                                 <rect key="frame" x="0.0" y="38" width="414" height="8374"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OWe-8T-2E1">
-                                        <rect key="frame" x="-20" y="-138" width="414" height="8385"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OWe-8T-2E1">
+                                        <rect key="frame" x="0.0" y="-136" width="414" height="8460"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AqA-00-l2e">
-                                                <rect key="frame" x="20" y="165" width="374" height="8374"/>
+                                                <rect key="frame" x="20" y="165" width="374" height="8287"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="8374" id="D0d-3J-hnk"/>
+                                                    <constraint firstAttribute="height" constant="8287" id="D0d-3J-hnk"/>
                                                     <constraint firstAttribute="width" constant="374" id="WMi-lU-r86"/>
                                                 </constraints>
                                                 <string key="text">1. WHAT INFORMATION DO WE COLLECT?
@@ -214,7 +214,7 @@ Based on the laws of some countries, you may have the right to request access to
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="AqA-00-l2e" firstAttribute="top" secondItem="OWe-8T-2E1" secondAttribute="top" constant="165" id="UFp-Ik-FN3"/>
-                                            <constraint firstAttribute="bottom" secondItem="AqA-00-l2e" secondAttribute="bottom" constant="-154" id="boO-eN-W6Z"/>
+                                            <constraint firstAttribute="bottom" secondItem="AqA-00-l2e" secondAttribute="bottom" constant="8" id="boO-eN-W6Z"/>
                                             <constraint firstItem="AqA-00-l2e" firstAttribute="leading" secondItem="OWe-8T-2E1" secondAttribute="leading" constant="20" id="wNE-Mz-WDb"/>
                                         </constraints>
                                     </view>
@@ -225,12 +225,12 @@ Based on the laws of some countries, you may have the right to request access to
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="OWe-8T-2E1" firstAttribute="bottom" secondItem="tLD-Sb-J2O" secondAttribute="bottom" constant="6" id="CTO-xT-DCB"/>
+                            <constraint firstItem="OWe-8T-2E1" firstAttribute="bottom" secondItem="tLD-Sb-J2O" secondAttribute="bottom" constant="-5" id="CTO-xT-DCB"/>
                             <constraint firstItem="OWe-8T-2E1" firstAttribute="leading" secondItem="tLD-Sb-J2O" secondAttribute="leading" id="DzN-DC-HEf"/>
-                            <constraint firstItem="tLD-Sb-J2O" firstAttribute="top" secondItem="OWe-8T-2E1" secondAttribute="top" constant="50" id="GXd-tb-IGn"/>
+                            <constraint firstItem="tLD-Sb-J2O" firstAttribute="top" secondItem="OWe-8T-2E1" secondAttribute="top" constant="136" id="GXd-tb-IGn"/>
                             <constraint firstItem="mDf-x3-TFC" firstAttribute="leading" secondItem="tLD-Sb-J2O" secondAttribute="leading" constant="20" id="JPc-nK-TzH"/>
                             <constraint firstItem="OWe-8T-2E1" firstAttribute="width" secondItem="aMj-Xw-va0" secondAttribute="width" id="QjS-KP-xFL"/>
-                            <constraint firstItem="OWe-8T-2E1" firstAttribute="height" secondItem="aMj-Xw-va0" secondAttribute="height" multiplier="0.986471" priority="250" id="U8n-x3-FOX"/>
+                            <constraint firstItem="OWe-8T-2E1" firstAttribute="height" secondItem="aMj-Xw-va0" secondAttribute="height" multiplier="0.986471" priority="250" constant="75" id="U8n-x3-FOX"/>
                             <constraint firstItem="mDf-x3-TFC" firstAttribute="top" secondItem="tLD-Sb-J2O" secondAttribute="top" constant="38" id="d6j-OO-8b4"/>
                             <constraint firstItem="tLD-Sb-J2O" firstAttribute="bottom" secondItem="mDf-x3-TFC" secondAttribute="bottom" constant="5" id="eDi-9l-Uux"/>
                             <constraint firstItem="tLD-Sb-J2O" firstAttribute="trailing" secondItem="mDf-x3-TFC" secondAttribute="trailing" constant="20" id="nbI-If-R61"/>
