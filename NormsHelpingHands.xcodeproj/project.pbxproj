@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		128CEF9D9D9BFD904ABABD1A /* Pods_NormsHelpingHands.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D678D79D01A2B3333BEBD7A8 /* Pods_NormsHelpingHands.framework */; };
+		87C7E279244AB5BE00CD48EB /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C7E278244AB5BE00CD48EB /* LeaderBoardViewController.swift */; };
 		87DC310823EC6A49005A4138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310623EC6A49005A4138 /* Main.storyboard */; };
 		87DC310A23EC6A4C005A4138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310923EC6A4C005A4138 /* Assets.xcassets */; };
 		87DC310D23EC6A4C005A4138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC310B23EC6A4C005A4138 /* LaunchScreen.storyboard */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		6E99C9C409C882B8DC96223D /* Pods-NormsHelpingHands.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NormsHelpingHands.debug.xcconfig"; path = "Target Support Files/Pods-NormsHelpingHands/Pods-NormsHelpingHands.debug.xcconfig"; sourceTree = "<group>"; };
+		87C7E278244AB5BE00CD48EB /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
 		87DC30FD23EC6A49005A4138 /* NormsHelpingHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NormsHelpingHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DC310023EC6A49005A4138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87DC310223EC6A49005A4138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				996A8B1524359C9200F5E343 /* MyEventsViewController.swift */,
 				996A8B1324359C9200F5E343 /* JoinedEventsViewController.swift */,
 				99556103241743A900016425 /* ViewControllers */,
+				87C7E278244AB5BE00CD48EB /* LeaderBoardViewController.swift */,
 			);
 			path = NormsHelpingHands;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				99B38BD22436906E00C96AEF /* EventViewCell.swift in Sources */,
 				99B38BD32436906E00C96AEF /* UserModel.swift in Sources */,
 				99B38BD42436906E00C96AEF /* MyEventsViewController.swift in Sources */,
+				87C7E279244AB5BE00CD48EB /* LeaderBoardViewController.swift in Sources */,
 				99B38BD52436906E00C96AEF /* JoinedEventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
