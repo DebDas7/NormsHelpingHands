@@ -18,6 +18,7 @@ class PostPageViewController: UIViewController {
     @IBOutlet weak var postDateLabel: UILabel!
     @IBOutlet weak var postDescLabel: UILabel!
     @IBOutlet weak var postCapcityLabel: UILabel!
+    @IBOutlet weak var eventButton: UIButton!
     var currentUser : UserModel!
     var isOwner : Bool = false
     var isJoined : Bool = false
@@ -30,6 +31,7 @@ class PostPageViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        checkIfJoined(postKey: postKey)
         setPostImages(imgKey: postKey)
         setPostInfo(postKey: postKey)
     }
@@ -45,8 +47,36 @@ class PostPageViewController: UIViewController {
             self.postDateLabel.text = snapshot.childSnapshot(forPath: "\(postKey)/date").value! as! String
             self.postDateLabel.sizeToFit()
             self.postDescLabel.text = snapshot.childSnapshot(forPath: "\(postKey)/description").value! as! String
+            
+            var creatorID = snapshot.childSnapshot(forPath: "\(postKey)/eventCreatorUID").value! as! String
+            if (creatorID == self.currentUser.uid) {
+                self.isOwner = true;
+                self.eventButton.setTitle("Delete!", for: UIControl.State.normal)
+            }
+            print(creatorID)
+            print()
+            print(self.isOwner)
             self.postDescLabel.sizeToFit()
             // self.postCapcityLabel.text = snapshot.childSnapshot(forPath: "\(postKey)/").value! as! String
+        })
+    }
+    
+    func checkIfJoined(postKey: String) {
+        let ref = Database.database().reference(withPath: "Users/\(currentUser.key)/joinedEvents")
+        ref.observeSingleEvent(of: .value, with: { (snapshot) in
+            if !snapshot.exists() {
+                return
+            }
+
+            // data found
+            let myData = snapshot.value as! [String: Bool]
+
+            for (key, value) in myData {
+                if(postKey == key) {
+                    self.isJoined = true
+                    self.eventButton.setTitle("Leave!", for: UIControl.State.normal)
+                }
+            }
         })
     }
     
@@ -65,9 +95,47 @@ class PostPageViewController: UIViewController {
     }
 
     @IBAction func joinClicked(_ sender: Any) {
-        let ref = Database.database().reference(withPath: "Users/\(currentUser.key)/joinedEvents")
-        ref.updateChildValues([postKey : true])
+        var alert = UIAlertController(title: "Volunteer Event", message: "Your event was successfully posted!", preferredStyle: .alert)
         
+        if (isOwner) {
+            let ref = Database.database().reference(withPath: "Posts")
+            ref.child(postKey).removeValue()
+            
+            alert.message = "You successfully deleted the event!"
+        } else if (!isJoined) {
+            let ref = Database.database().reference(withPath: "Users/\(currentUser.key)/joinedEvents")
+            ref.updateChildValues([postKey : true])
+            
+            alert.message = "You successfully joined the event!"
+            
+        } else {
+            let ref = Database.database().reference(withPath: "Users/\(currentUser.key)/joinedEvents")
+            ref.child(postKey).removeValue()
+            
+            alert.message = "You left the event!"
+            
+        }
+        
+        alert.addAction(UIAlertAction(title: "Ok!", style: .default, handler: { action in
+            self.navigationController?.popViewController(animated: true)
+        }))
+        
+        self.present(alert, animated: true)
     }
 
 }
+/*
+ if (!isJoined) {
+     let ref = Database.database().reference(withPath: "Users/\(currentUser.key)/joinedEvents")
+     ref.updateChildValues([postKey : true])
+     
+     alert.message = "You successfully joined the event!"
+     
+ } else {
+     let ref = Database.database().reference(withPath: "Users/\(currentUser.key)/joinedEvents")
+     ref.child(postKey).removeValue()
+     
+     alert.message = "You left the event!"
+     
+ }
+ */

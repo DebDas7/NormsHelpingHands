@@ -15,12 +15,17 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var signinButton: UIButton!
+    @IBOutlet weak var titleLabel: UILabel!
     var currentUser: UserModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // lable
+        titleLabel.layer.borderWidth = 2
+        titleLabel.layer.cornerRadius = 8
+        titleLabel.layer.masksToBounds = true
+        titleLabel.backgroundColor = UIColor(red: 0.20, green: 0.76, blue: 0.54, alpha: 1.00)
     }
     
     @IBAction func QUICKSIGNIN(_ sender: Any) {

@@ -18,6 +18,7 @@ class JoinedEventsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     func createArray() {
@@ -26,6 +27,7 @@ class JoinedEventsViewController: UIViewController {
         let ref = Database.database().reference(withPath: "Users/\(currentUser.key)/joinedEvents")
         ref.observeSingleEvent(of: .value, with: { (snapshot) in
             if !snapshot.exists() {
+                self.tableView.reloadData()
                 return
             }
 
@@ -74,3 +76,4 @@ extension JoinedEventsViewController: UITableViewDataSource, UITableViewDelegate
         return cell
     }
 }
+

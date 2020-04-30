@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6G-uG-dHG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L6G-uG-dHG">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -246,180 +246,6 @@ Based on the laws of some countries, you may have the right to request access to
             </objects>
             <point key="canvasLocation" x="5250.7246376811599" y="79.6875"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="fgQ-dX-GHd">
-            <objects>
-                <viewController id="wSg-8X-lmF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="g72-O1-UbI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="8500"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HuH-ZB-02X">
-                                <rect key="frame" x="20" y="20" width="374" height="8392"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="piB-4F-08p">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="8392"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">END USER LICENSE AGREEMENT
-
-Last updated March 26, 2020
-
-
- 
-NormsHelpingHands is licensed to You (End-User) by Realization, located at 9201 University City Blvd, Charlotte, North Carolina 28223, United States (hereinafter: Licensor), for use only under the terms of this License Agreement.
- 
-By downloading the Application from the Apple AppStore, and any update thereto (as permitted by this License Agreement), You indicate that You agree to be bound by all of the terms and conditions of this License Agreement, and that You accept this License Agreement.
- 
-The parties of this License Agreement acknowledge that Apple is not a Party to this License Agreement and is not bound by any provisions or obligations with regard to the Application, such as warranty, liability, maintenance and support thereof. Realization, not Apple, is solely responsible for the licensed Application and the content thereof.
- 
-This License Agreement may not provide for usage rules for the Application that are in conflict with the latest App Store Terms of Service. Realization acknowledges that it had the opportunity to review said terms and this License Agreement is not conflicting with them.
-
-All rights not expressly granted to You are reserved.
-
-
-1. THE APPLICATION
- 
-NormsHelpingHands (hereinafter: Application) is a piece of software created to provide a platform to encourage engagement in the UNC Charlotte community - and customized for Apple mobile devices. It is used to create and volunteer for events within the community .
-
-The Application is not tailored to comply with industry-specific regulations (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.), so if your interactions would be subjected to such laws, you may not use this Application. You may not use the Application in a way that would violate the Gramm-Leach-Bliley Act (GLBA).
-
-
-2. SCOPE OF LICENSE
- 
-2.1  You are given a non-transferable, non-exclusive, non-sublicensable license to install and use the Licensed Application on any Apple-branded Products that You (End-User) own or control and as permitted by the Usage Rules set forth in this section and the App Store Terms of Service, with the exception that such licensed Application may be accessed and used by other accounts associated with You (End-User, The Purchaser) via Family Sharing or volume purchasing.
-
-2.2  This license will also govern any updates of the Application provided by Licensor that replace, repair, and/or supplement the first Application, unless a separate license is provided for such update in which case the terms of that new license will govern.
-
-2.3  You may not share or make the Application available to third parties (unless to the degree allowed by the Apple Terms and Conditions, and with Realization's prior written consent), sell, rent, lend, lease or otherwise redistribute the Application.
-
-2.4  You may not reverse engineer, translate, disassemble, integrate, decompile, integrate, remove, modify, combine, create derivative works or updates of, adapt, or attempt to derive the source code of the Application, or any part thereof (except with Realization's prior written consent).
-
-2.5  You may not copy (excluding when expressly authorized by this license and the Usage Rules) or alter the Application or portions thereof. You may create and store copies only on devices that You own or control for backup keeping under the terms of this license, the App Store Terms of Service, and any other terms and conditions that apply to the device or software used. You may not remove any intellectual property notices. You acknowledge that no unauthorized third parties may gain access to these copies at any time.
-
-2.6  Violations of the obligations mentioned above, as well as the attempt of such infringement, may be subject to prosecution and damages.
-
-2.7  Licensor reserves the right to modify the terms and conditions of licensing.
-
-2.8  Nothing in this license should be interpreted to restrict third-party terms. When using the Application, You must ensure that You comply with applicable third-party terms and conditions.
-   
-
-3. TECHNICAL REQUIREMENTS
-
-3.1  The Application requires a firmware version 1.0.0 or higher. Licensor recommends using the latest version of the firmware.
-
-3.2  Licensor attempts to keep the Application updated so that it complies with modified/new versions of the firmware and new hardware. You are not granted rights to claim such an update.
-
-3.3  You acknowledge that it is Your responsibility to confirm and determine that the app end-user device on which You intend to use the Application satisfies the technical  specifications mentioned above.
-
-3.4  Licensor reserves the right to modify the technical specifications as it sees appropriate at any time.
-
-
-4. MAINTENANCE AND SUPPORT
-
-4.1  The Licensor is solely responsible for providing any maintenance and support services for this licensed Application. You can reach the Licensor at the email address listed in the App Store Overview for this licensed Application.
-
-4.2  Realization and the End-User acknowledge that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the licensed Application.
-
-
-5. LIABILITY
-
-5.1  Licensor's responsibility in the case of violation of obligations and tort shall be limited to intent and gross negligence. Only in case of a breach of essential contractual duties (cardinal obligations), Licensor shall also be liable in case of slight negligence. In any case, liability shall be limited to the foreseeable, contractually typical damages. The limitation mentioned above does not apply to injuries to life, limb, or health.
-
-5.2  Licensor takes no accountability or responsibility for any damages caused due to a breach of duties according to Section 2 of this Agreement. To avoid data loss, You are required to make use of backup functions of the Application to the extent allowed by applicable third-party terms and conditions of use. You are aware that in case of alterations or manipulations of the Application, You will not have access to licensed Application.
-
-
-6. WARRANTY
-
-6.1  Licensor warrants that the Application is free of spyware, trojan horses, viruses, or any other malware at the time of Your download. Licensor warrants that the Application works as described in the user documentation.
-
-6.2  No warranty is provided for the Application that is not executable on the device, that has been unauthorizedly modified, handled inappropriately or culpably, combined or installed with inappropriate hardware or software, used with inappropriate accessories, regardless if by Yourself or by third parties, or if there are any other reasons outside of Realization's sphere of influence that affect the executability of the Application.
-
-6.3  You are required to inspect the Application immediately after installing it and notify Realization about issues discovered without delay by e-mail provided in Product Claims. The defect report will be taken into consideration and further investigated if it has been mailed within a period of one hundred twenty (120) days after discovery.
-
-6.4  If we confirm that the Application is defective, Realization reserves a choice to remedy the situation either by means of solving the defect or substitute delivery.
-
-6.5  In the event of any failure of the Application to conform to any applicable warranty, You may notify the App-Store-Operator, and Your Application purchase price will be refunded to You. To the maximum extent permitted by applicable law, the App-Store-Operator will have no other warranty obligation whatsoever with respect to the App, and any other losses, claims, damages, liabilities, expenses and costs attributable to any negligence to adhere to any warranty.
-           
-6.6  If the user is an entrepreneur, any claim based on faults expires after a statutory period of limitation amounting to twelve (12) months after the Application was made available to the user. The statutory periods of limitation given by law apply for users who are consumers.
-
-           
-7. PRODUCT CLAIMS
- 
-Realization and the End-User acknowledge that Realization, and not Apple, is responsible for addressing any claims of the End-User or any third party relating to the licensed Application or the End-User’s possession and/or use of that licensed Application, including, but not limited to:
- 
-(i) product liability claims;
-           
-(ii) any claim that the licensed Application fails to conform to any applicable legal or regulatory requirement; and
-           
-(iii) claims arising under consumer protection, privacy, or similar legislation, including in connection with Your Licensed Application’s use of the HealthKit and HomeKit.
-
-   
-8. LEGAL COMPLIANCE
-    
-You represent and warrant that You are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a "terrorist supporting" country; and that You are not listed on any U.S. Government list of prohibited or restricted parties.
-
-   
-9. CONTACT INFORMATION                  
-     
-For general inquiries, complaints, questions or claims concerning the licensed Application, please contact:
-     
-__________
-__________
-__________, __________ __________
-__________
-__________
-
-
-10. TERMINATION
-    
-The license is valid until terminated by Realization or by You. Your rights under this license will terminate automatically and without notice from Realization if You fail to adhere to any term(s) of this license. Upon License termination, You shall stop all use of the Application, and destroy all copies, full or partial, of the Application.
-
-
-11. THIRD-PARTY TERMS OF AGREEMENTS AND BENEFICIARY
- 
-Realization represents and warrants that Realization will comply with applicable third-party terms of agreement when using licensed Application.
- 
-In Accordance with Section 9 of the "Instructions for Minimum Terms of Developer's End-User License Agreement," Apple and Apple's subsidiaries shall be third-party beneficiaries of this End User License Agreement and - upon Your acceptance of the terms and conditions of this license agreement, Apple will have the right (and will be deemed to have accepted the right) to enforce this End User License Agreement against You as a third-party beneficiary thereof.
- 
-
-12. INTELLECTUAL PROPERTY RIGHTS
- 
-Realization and the End-User acknowledge that, in the event of any third-party claim that the licensed Application or the End-User's possession and use of that licensed Application infringes on the third party's intellectual property rights, Realization, and not Apple, will be solely responsible for the investigation, defense, settlement and discharge or any such intellectual property infringement claims.
- 
-
-13. APPLICABLE LAW
- 
-This license agreement is governed by the laws of the State of North Carolina excluding its conflicts of law rules.
- 
-
-14. MISCELLANEOUS
-          
-14.1  If any of the terms of this agreement should be or become invalid, the validity of the remaining provisions shall not be affected. Invalid terms will be replaced by valid ones formulated in a way that will achieve the primary purpose.
-             
-14.2  Collateral agreements, changes and amendments are only valid if laid down in writing. The preceding clause can only be waived in writing.
-
-</string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <viewLayoutGuide key="contentLayoutGuide" id="HNM-7E-xVG"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="9Ps-Of-U1D"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="fPc-ZI-1Nr"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="PMu-5E-l1q"/>
-                    <size key="freeformSize" width="414" height="8500"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sHB-Td-Uy6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5958" y="80"/>
-        </scene>
         <!--Home-->
         <scene sceneID="dId-LL-ETw">
             <objects>
@@ -466,59 +292,63 @@ This license agreement is governed by the laws of the State of North Carolina ex
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffx-Tj-h5x">
-                                <rect key="frame" x="24" y="223" width="366" height="572"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="175" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZuH-TV-ZXU">
+                                <rect key="frame" x="20" y="223" width="374" height="571"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JcP-r7-Sn5">
-                                        <rect key="frame" x="5" y="18" width="357" height="128"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hnJ-gZ-XQI">
-                                                <rect key="frame" x="0.0" y="0.0" width="357" height="128"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="357" id="4hs-7c-u4X"/>
-                                                    <constraint firstAttribute="height" constant="128" id="JLQ-fI-pRd"/>
-                                                </constraints>
-                                            </imageView>
-                                        </subviews>
-                                    </stackView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fVJ-Cu-DjL">
-                                        <rect key="frame" x="5" y="154" width="357" height="128"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="357" id="awe-xa-MZQ"/>
-                                            <constraint firstAttribute="height" constant="128" id="dof-cB-Aav"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b9m-Zu-J9v">
-                                        <rect key="frame" x="5" y="290" width="357" height="128"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="357" id="6Ne-gU-aFU"/>
-                                            <constraint firstAttribute="height" constant="128" id="nnF-An-C6x"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W4F-FD-O1n">
-                                        <rect key="frame" x="5" y="426" width="357" height="128"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="128" id="Xwn-zB-uDD"/>
-                                            <constraint firstAttribute="width" constant="357" id="aba-Fm-F5A"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                                <viewLayoutGuide key="contentLayoutGuide" id="cHt-ac-n7t"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="DwI-qa-EgY"/>
-                            </scrollView>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventCell" rowHeight="175" id="Ls4-Vv-egl" customClass="EventViewCell" customModule="NormsHelpingHands" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="175"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ls4-Vv-egl" id="D7y-z3-a36">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="175"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y6k-wn-3QD">
+                                                    <rect key="frame" x="16" y="46" width="111" height="83"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Y6k-wn-3QD" secondAttribute="height" multiplier="4:3" id="Lrh-Xi-eBr"/>
+                                                        <constraint firstAttribute="width" constant="111" id="bxe-yw-UJR"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6VV-00-XSe">
+                                                    <rect key="frame" x="149" y="77" width="225" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="225" id="Uu4-l0-3wO"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Y6k-wn-3QD" firstAttribute="centerY" secondItem="D7y-z3-a36" secondAttribute="centerY" id="08x-ut-99R"/>
+                                                <constraint firstItem="6VV-00-XSe" firstAttribute="top" secondItem="D7y-z3-a36" secondAttribute="topMargin" constant="66" id="Q0r-eu-zGn"/>
+                                                <constraint firstItem="Y6k-wn-3QD" firstAttribute="leading" secondItem="D7y-z3-a36" secondAttribute="leadingMargin" id="SeR-zT-DeD"/>
+                                                <constraint firstItem="6VV-00-XSe" firstAttribute="leading" secondItem="Y6k-wn-3QD" secondAttribute="trailing" constant="22" id="ho4-0w-rCp"/>
+                                                <constraint firstItem="Y6k-wn-3QD" firstAttribute="centerY" secondItem="6VV-00-XSe" secondAttribute="centerY" id="lGa-rH-Qmc"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="eventImageView" destination="Y6k-wn-3QD" id="DOw-dq-NAW"/>
+                                            <outlet property="eventTitleLabel" destination="6VV-00-XSe" id="kTy-iP-ebg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ZN3-OW-TpW" id="p8L-m7-iMP"/>
+                                    <outlet property="delegate" destination="ZN3-OW-TpW" id="OqX-9N-Qvt"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="L4h-xE-aQh"/>
                     </view>
                     <navigationItem key="navigationItem" id="mhW-s5-RTf"/>
                     <connections>
-                        <outlet property="aPostImage" destination="hnJ-gZ-XQI" id="1GW-83-OCS"/>
-                        <outlet property="bPostImage" destination="fVJ-Cu-DjL" id="U9r-de-01V"/>
-                        <outlet property="cPostImage" destination="b9m-Zu-J9v" id="Az1-R3-0Uu"/>
                         <outlet property="createEventButton" destination="RxC-Vm-m1u" id="QbO-yw-5hs"/>
-                        <outlet property="dPostImage" destination="W4F-FD-O1n" id="q53-am-Gsl"/>
-                        <segue destination="bRi-t9-w16" kind="show" id="JYL-Fw-sEN"/>
+                        <outlet property="tableView" destination="ZuH-TV-ZXU" id="V0D-iA-1pU"/>
+                        <segue destination="bRi-t9-w16" kind="show" identifier="exploreToPost" id="JYL-Fw-sEN"/>
                         <segue destination="os4-of-7xx" kind="show" id="doH-6a-bed"/>
                     </connections>
                 </viewController>
@@ -637,7 +467,7 @@ This license agreement is governed by the laws of the State of North Carolina ex
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pds-wT-voJ">
-                                <rect key="frame" x="322" y="764" width="33" height="30"/>
+                                <rect key="frame" x="293" y="764" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Join!"/>
                                 <connections>
@@ -650,6 +480,7 @@ This license agreement is governed by the laws of the State of North Carolina ex
                     </view>
                     <navigationItem key="navigationItem" id="FBX-Cw-40X"/>
                     <connections>
+                        <outlet property="eventButton" destination="Pds-wT-voJ" id="GLc-1T-jSZ"/>
                         <outlet property="postCapcityLabel" destination="2IF-v9-g3z" id="cpL-IO-5i4"/>
                         <outlet property="postDateLabel" destination="2Rx-PD-eS1" id="4v3-La-4r3"/>
                         <outlet property="postDescLabel" destination="4Jh-j2-7yg" id="GWW-VA-8Yw"/>
@@ -771,11 +602,8 @@ This license agreement is governed by the laws of the State of North Carolina ex
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="h2l-q4-fiO">
-                                <rect key="frame" x="186.33333333333334" y="137" width="41.666666666666657" height="20.333333333333343"/>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Full Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Bh-U2-xwD">
-                                <rect key="frame" x="163" y="95" width="211" height="29"/>
+                                <rect key="frame" x="173" y="120" width="211" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -818,7 +646,7 @@ This license agreement is governed by the laws of the State of North Carolina ex
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Terms of Serivce"/>
                                 <connections>
-                                    <segue destination="wSg-8X-lmF" kind="show" id="B1v-cS-BWZ"/>
+                                    <segue destination="BS0-Il-rC3" kind="show" id="Ahk-W0-6qN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nB2-nx-etm">
@@ -834,10 +662,6 @@ This license agreement is governed by the laws of the State of North Carolina ex
                         <accessibility key="accessibilityConfiguration">
                             <accessibilityTraits key="traits" button="YES"/>
                         </accessibility>
-                        <constraints>
-                            <constraint firstItem="h2l-q4-fiO" firstAttribute="top" secondItem="M7m-XM-F3d" secondAttribute="top" constant="93" id="4zV-E3-6lj"/>
-                            <constraint firstItem="h2l-q4-fiO" firstAttribute="centerX" secondItem="ytu-uR-mNm" secondAttribute="centerX" id="cYG-88-kya"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="M7m-XM-F3d"/>
                     </view>
                     <navigationItem key="navigationItem" id="Haq-Ug-A3U"/>
@@ -994,7 +818,6 @@ This license agreement is governed by the laws of the State of North Carolina ex
         <!--Leaderboard-->
         <scene sceneID="bgr-DT-58a">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3rN-rC-BgC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Ugd-AI-TFJ" customClass="LeaderBoardViewController" customModule="NormsHelpingHands" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tkd-Dw-v4v">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -1043,6 +866,7 @@ This license agreement is governed by the laws of the State of North Carolina ex
                     </view>
                     <tabBarItem key="tabBarItem" title="Leaderboard" id="CE4-Cf-a4F"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3rN-rC-BgC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="953.62318840579712" y="1147.7678571428571"/>
         </scene>
@@ -1054,37 +878,6 @@ This license agreement is governed by the laws of the State of North Carolina ex
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nKJ-U6-y6p">
-                                <rect key="frame" x="153" y="222" width="176" height="34"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WAl-Vv-2U3">
-                                <rect key="frame" x="153" y="264" width="176" height="34"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2v-sg-TAU">
-                                <rect key="frame" x="183" y="306" width="48" height="30"/>
-                                <state key="normal" title="Sign In"/>
-                                <connections>
-                                    <action selector="signinTapped:" destination="L6G-uG-dHG" eventType="touchUpInside" id="0zI-81-2yc"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYZ-SE-IZu">
-                                <rect key="frame" x="105" y="229" width="41" height="20"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYi-7M-h45">
-                                <rect key="frame" x="72" y="270" width="74" height="22"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xig-m5-y4H">
                                 <rect key="frame" x="153.66666666666666" y="806" width="106.99999999999997" height="30"/>
                                 <state key="normal" title="Create Account"/>
@@ -1092,15 +885,6 @@ This license agreement is governed by the laws of the State of North Carolina ex
                                     <segue destination="Vgf-AH-qKU" kind="show" id="aLm-kO-oBr"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggb-9B-k3B">
-                                <rect key="frame" x="188.33333333333334" y="344" width="37.666666666666657" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="18" id="h5m-NO-5xw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.87546916239999995" green="0.27858512670000002" blue="0.19368532150000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKT-kj-sWs">
                                 <rect key="frame" x="20" y="66" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1109,6 +893,61 @@ This license agreement is governed by the laws of the State of North Carolina ex
                                     <action selector="QUICKSIGNIN:" destination="L6G-uG-dHG" eventType="touchUpInside" id="aVH-HD-zWd"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APS-L9-12y">
+                                <rect key="frame" x="100" y="104" width="228" height="241"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Norm's Helping Hands">
+                                        <attributes>
+                                            <font key="NSFont" size="60" name="Futura-Medium"/>
+                                            <font key="NSOriginalFont" size="36" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="-8" height="-1"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nKJ-U6-y6p">
+                                <rect key="frame" x="152" y="365" width="176" height="34"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WAl-Vv-2U3">
+                                <rect key="frame" x="152" y="407" width="176" height="34"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2v-sg-TAU">
+                                <rect key="frame" x="182" y="449" width="48" height="30"/>
+                                <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <action selector="signinTapped:" destination="L6G-uG-dHG" eventType="touchUpInside" id="0zI-81-2yc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYZ-SE-IZu">
+                                <rect key="frame" x="104" y="372" width="41" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYi-7M-h45">
+                                <rect key="frame" x="71" y="413" width="74" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Error" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggb-9B-k3B">
+                                <rect key="frame" x="187" y="487" width="37.666666666666657" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="h5m-NO-5xw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.87546916239999995" green="0.27858512670000002" blue="0.19368532150000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -1118,19 +957,19 @@ This license agreement is governed by the laws of the State of North Carolina ex
                             <constraint firstItem="0MC-N2-CbN" firstAttribute="bottom" secondItem="Xig-m5-y4H" secondAttribute="bottom" constant="26" id="5fS-5V-lYb"/>
                             <constraint firstItem="WAl-Vv-2U3" firstAttribute="top" secondItem="nKJ-U6-y6p" secondAttribute="bottom" constant="8" id="6Ne-n6-QoN"/>
                             <constraint firstItem="ggb-9B-k3B" firstAttribute="centerX" secondItem="R2v-sg-TAU" secondAttribute="centerX" id="CEQ-xi-OS6"/>
-                            <constraint firstItem="TYZ-SE-IZu" firstAttribute="top" secondItem="0MC-N2-CbN" secondAttribute="top" constant="185" id="JIG-51-zMJ"/>
+                            <constraint firstItem="TYZ-SE-IZu" firstAttribute="top" secondItem="0MC-N2-CbN" secondAttribute="top" constant="327" id="JIG-51-zMJ"/>
                             <constraint firstItem="R2v-sg-TAU" firstAttribute="top" secondItem="WAl-Vv-2U3" secondAttribute="bottom" constant="8" id="JYM-bT-exU"/>
-                            <constraint firstItem="R2v-sg-TAU" firstAttribute="centerX" secondItem="Sa5-kY-fax" secondAttribute="centerX" id="NA9-lx-FvK"/>
+                            <constraint firstItem="R2v-sg-TAU" firstAttribute="centerX" secondItem="Sa5-kY-fax" secondAttribute="centerX" constant="7" id="NA9-lx-FvK"/>
                             <constraint firstItem="TYZ-SE-IZu" firstAttribute="trailing" secondItem="bYi-7M-h45" secondAttribute="trailing" id="SCf-5k-221"/>
                             <constraint firstItem="TYZ-SE-IZu" firstAttribute="centerY" secondItem="nKJ-U6-y6p" secondAttribute="centerY" id="cHA-T9-UHv"/>
-                            <constraint firstItem="nKJ-U6-y6p" firstAttribute="top" secondItem="0MC-N2-CbN" secondAttribute="top" constant="178" id="i2a-H2-xPt"/>
-                            <constraint firstItem="bYi-7M-h45" firstAttribute="leading" secondItem="0MC-N2-CbN" secondAttribute="leading" constant="72" id="icT-Z8-65T"/>
-                            <constraint firstItem="R2v-sg-TAU" firstAttribute="leading" secondItem="0MC-N2-CbN" secondAttribute="leading" constant="183" id="jS8-QN-XIl"/>
+                            <constraint firstItem="nKJ-U6-y6p" firstAttribute="top" secondItem="0MC-N2-CbN" secondAttribute="top" constant="320" id="i2a-H2-xPt"/>
+                            <constraint firstItem="bYi-7M-h45" firstAttribute="leading" secondItem="0MC-N2-CbN" secondAttribute="leading" constant="79" id="icT-Z8-65T"/>
+                            <constraint firstItem="R2v-sg-TAU" firstAttribute="leading" secondItem="0MC-N2-CbN" secondAttribute="leading" constant="190" id="jS8-QN-XIl"/>
                             <constraint firstItem="bYi-7M-h45" firstAttribute="top" secondItem="TYZ-SE-IZu" secondAttribute="bottom" constant="21" id="lWZ-1C-deY"/>
                             <constraint firstItem="ggb-9B-k3B" firstAttribute="top" secondItem="R2v-sg-TAU" secondAttribute="bottom" constant="8" id="nTm-HN-esI"/>
-                            <constraint firstItem="R2v-sg-TAU" firstAttribute="centerX" secondItem="Xig-m5-y4H" secondAttribute="centerX" id="pK1-yi-llA"/>
+                            <constraint firstItem="R2v-sg-TAU" firstAttribute="centerX" secondItem="Xig-m5-y4H" secondAttribute="centerX" constant="6.8333333333333712" id="pK1-yi-llA"/>
                             <constraint firstItem="bYi-7M-h45" firstAttribute="centerY" secondItem="WAl-Vv-2U3" secondAttribute="centerY" id="pcv-0Q-LuN"/>
-                            <constraint firstItem="0MC-N2-CbN" firstAttribute="trailing" secondItem="nKJ-U6-y6p" secondAttribute="trailing" constant="85" id="vZ5-vE-BX5"/>
+                            <constraint firstItem="0MC-N2-CbN" firstAttribute="trailing" secondItem="nKJ-U6-y6p" secondAttribute="trailing" constant="78" id="vZ5-vE-BX5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0MC-N2-CbN"/>
                     </view>
@@ -1139,12 +978,13 @@ This license agreement is governed by the laws of the State of North Carolina ex
                         <outlet property="errorLabel" destination="ggb-9B-k3B" id="FXc-rp-N8p"/>
                         <outlet property="passwordTextField" destination="WAl-Vv-2U3" id="13x-2O-aS2"/>
                         <outlet property="signinButton" destination="R2v-sg-TAU" id="QFl-2d-izc"/>
+                        <outlet property="titleLabel" destination="APS-L9-12y" id="4gb-cs-ubY"/>
                         <segue destination="17B-yZ-Dwe" kind="presentation" identifier="signInToTab" id="7d7-FA-VrB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NAI-w8-IAb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1126" y="1148"/>
+            <point key="canvasLocation" x="-1126.0869565217392" y="1147.7678571428571"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="eOm-LT-bfa">
@@ -1326,13 +1166,213 @@ This license agreement is governed by the laws of the State of North Carolina ex
             </objects>
             <point key="canvasLocation" x="953.62318840579712" y="466.74107142857139"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="oey-69-ShB">
+            <objects>
+                <viewController id="BS0-Il-rC3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F4j-SD-WsO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="8500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oC1-xI-ZaU">
+                                <rect key="frame" x="0.0" y="38" width="414" height="8374"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BAT-nO-JLW">
+                                        <rect key="frame" x="0.0" y="-136" width="414" height="8460"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="N5F-QU-aQO">
+                                                <rect key="frame" x="20" y="165" width="374" height="8287"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="374" id="ZMd-fA-v3Q"/>
+                                                    <constraint firstAttribute="height" constant="8287" id="xqI-MH-X5g"/>
+                                                </constraints>
+                                                <mutableString key="text">END USER LICENSE AGREEMENT
+
+Last updated March 26, 2020
+
+
+ 
+NormsHelpingHands is licensed to You (End-User) by Realization, located at 9201 University City Blvd, Charlotte, North Carolina 28223, United States (hereinafter: Licensor), for use only under the terms of this License Agreement.
+ 
+By downloading the Application from the Apple AppStore, and any update thereto (as permitted by this License Agreement), You indicate that You agree to be bound by all of the terms and conditions of this License Agreement, and that You accept this License Agreement.
+ 
+The parties of this License Agreement acknowledge that Apple is not a Party to this License Agreement and is not bound by any provisions or obligations with regard to the Application, such as warranty, liability, maintenance and support thereof. Realization, not Apple, is solely responsible for the licensed Application and the content thereof.
+ 
+This License Agreement may not provide for usage rules for the Application that are in conflict with the latest App Store Terms of Service. Realization acknowledges that it had the opportunity to review said terms and this License Agreement is not conflicting with them.
+
+All rights not expressly granted to You are reserved.
+
+
+1. THE APPLICATION
+ 
+NormsHelpingHands (hereinafter: Application) is a piece of software created to provide a platform to encourage engagement in the UNC Charlotte community - and customized for Apple mobile devices. It is used to create and volunteer for events within the community .
+
+The Application is not tailored to comply with industry-specific regulations (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.), so if your interactions would be subjected to such laws, you may not use this Application. You may not use the Application in a way that would violate the Gramm-Leach-Bliley Act (GLBA).
+
+
+2. SCOPE OF LICENSE
+ 
+2.1  You are given a non-transferable, non-exclusive, non-sublicensable license to install and use the Licensed Application on any Apple-branded Products that You (End-User) own or control and as permitted by the Usage Rules set forth in this section and the App Store Terms of Service, with the exception that such licensed Application may be accessed and used by other accounts associated with You (End-User, The Purchaser) via Family Sharing or volume purchasing.
+
+2.2  This license will also govern any updates of the Application provided by Licensor that replace, repair, and/or supplement the first Application, unless a separate license is provided for such update in which case the terms of that new license will govern.
+
+2.3  You may not share or make the Application available to third parties (unless to the degree allowed by the Apple Terms and Conditions, and with Realization's prior written consent), sell, rent, lend, lease or otherwise redistribute the Application.
+
+2.4  You may not reverse engineer, translate, disassemble, integrate, decompile, integrate, remove, modify, combine, create derivative works or updates of, adapt, or attempt to derive the source code of the Application, or any part thereof (except with Realization's prior written consent).
+
+2.5  You may not copy (excluding when expressly authorized by this license and the Usage Rules) or alter the Application or portions thereof. You may create and store copies only on devices that You own or control for backup keeping under the terms of this license, the App Store Terms of Service, and any other terms and conditions that apply to the device or software used. You may not remove any intellectual property notices. You acknowledge that no unauthorized third parties may gain access to these copies at any time.
+
+2.6  Violations of the obligations mentioned above, as well as the attempt of such infringement, may be subject to prosecution and damages.
+
+2.7  Licensor reserves the right to modify the terms and conditions of licensing.
+
+2.8  Nothing in this license should be interpreted to restrict third-party terms. When using the Application, You must ensure that You comply with applicable third-party terms and conditions.
+   
+
+3. TECHNICAL REQUIREMENTS
+
+3.1  The Application requires a firmware version 1.0.0 or higher. Licensor recommends using the latest version of the firmware.
+
+3.2  Licensor attempts to keep the Application updated so that it complies with modified/new versions of the firmware and new hardware. You are not granted rights to claim such an update.
+
+3.3  You acknowledge that it is Your responsibility to confirm and determine that the app end-user device on which You intend to use the Application satisfies the technical  specifications mentioned above.
+
+3.4  Licensor reserves the right to modify the technical specifications as it sees appropriate at any time.
+
+
+4. MAINTENANCE AND SUPPORT
+
+4.1  The Licensor is solely responsible for providing any maintenance and support services for this licensed Application. You can reach the Licensor at the email address listed in the App Store Overview for this licensed Application.
+
+4.2  Realization and the End-User acknowledge that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the licensed Application.
+
+
+5. LIABILITY
+
+5.1  Licensor's responsibility in the case of violation of obligations and tort shall be limited to intent and gross negligence. Only in case of a breach of essential contractual duties (cardinal obligations), Licensor shall also be liable in case of slight negligence. In any case, liability shall be limited to the foreseeable, contractually typical damages. The limitation mentioned above does not apply to injuries to life, limb, or health.
+
+5.2  Licensor takes no accountability or responsibility for any damages caused due to a breach of duties according to Section 2 of this Agreement. To avoid data loss, You are required to make use of backup functions of the Application to the extent allowed by applicable third-party terms and conditions of use. You are aware that in case of alterations or manipulations of the Application, You will not have access to licensed Application.
+
+
+6. WARRANTY
+
+6.1  Licensor warrants that the Application is free of spyware, trojan horses, viruses, or any other malware at the time of Your download. Licensor warrants that the Application works as described in the user documentation.
+
+6.2  No warranty is provided for the Application that is not executable on the device, that has been unauthorizedly modified, handled inappropriately or culpably, combined or installed with inappropriate hardware or software, used with inappropriate accessories, regardless if by Yourself or by third parties, or if there are any other reasons outside of Realization's sphere of influence that affect the executability of the Application.
+
+6.3  You are required to inspect the Application immediately after installing it and notify Realization about issues discovered without delay by e-mail provided in Product Claims. The defect report will be taken into consideration and further investigated if it has been mailed within a period of one hundred twenty (120) days after discovery.
+
+6.4  If we confirm that the Application is defective, Realization reserves a choice to remedy the situation either by means of solving the defect or substitute delivery.
+
+6.5  In the event of any failure of the Application to conform to any applicable warranty, You may notify the App-Store-Operator, and Your Application purchase price will be refunded to You. To the maximum extent permitted by applicable law, the App-Store-Operator will have no other warranty obligation whatsoever with respect to the App, and any other losses, claims, damages, liabilities, expenses and costs attributable to any negligence to adhere to any warranty.
+           
+6.6  If the user is an entrepreneur, any claim based on faults expires after a statutory period of limitation amounting to twelve (12) months after the Application was made available to the user. The statutory periods of limitation given by law apply for users who are consumers.
+
+           
+7. PRODUCT CLAIMS
+ 
+Realization and the End-User acknowledge that Realization, and not Apple, is responsible for addressing any claims of the End-User or any third party relating to the licensed Application or the End-User’s possession and/or use of that licensed Application, including, but not limited to:
+ 
+(i) product liability claims;
+           
+(ii) any claim that the licensed Application fails to conform to any applicable legal or regulatory requirement; and
+           
+(iii) claims arising under consumer protection, privacy, or similar legislation, including in connection with Your Licensed Application’s use of the HealthKit and HomeKit.
+
+   
+8. LEGAL COMPLIANCE
+    
+You represent and warrant that You are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a "terrorist supporting" country; and that You are not listed on any U.S. Government list of prohibited or restricted parties.
+
+   
+9. CONTACT INFORMATION                  
+     
+For general inquiries, complaints, questions or claims concerning the licensed Application, please contact:
+     
+__________
+__________
+__________, __________ __________
+__________
+__________
+
+
+10. TERMINATION
+    
+The license is valid until terminated by Realization or by You. Your rights under this license will terminate automatically and without notice from Realization if You fail to adhere to any term(s) of this license. Upon License termination, You shall stop all use of the Application, and destroy all copies, full or partial, of the Application.
+
+
+11. THIRD-PARTY TERMS OF AGREEMENTS AND BENEFICIARY
+ 
+Realization represents and warrants that Realization will comply with applicable third-party terms of agreement when using licensed Application.
+ 
+In Accordance with Section 9 of the "Instructions for Minimum Terms of Developer's End-User License Agreement," Apple and Apple's subsidiaries shall be third-party beneficiaries of this End User License Agreement and - upon Your acceptance of the terms and conditions of this license agreement, Apple will have the right (and will be deemed to have accepted the right) to enforce this End User License Agreement against You as a third-party beneficiary thereof.
+ 
+
+12. INTELLECTUAL PROPERTY RIGHTS
+ 
+Realization and the End-User acknowledge that, in the event of any third-party claim that the licensed Application or the End-User's possession and use of that licensed Application infringes on the third party's intellectual property rights, Realization, and not Apple, will be solely responsible for the investigation, defense, settlement and discharge or any such intellectual property infringement claims.
+ 
+
+13. APPLICABLE LAW
+ 
+This license agreement is governed by the laws of the State of North Carolina excluding its conflicts of law rules.
+ 
+
+14. MISCELLANEOUS
+          
+14.1  If any of the terms of this agreement should be or become invalid, the validity of the remaining provisions shall not be affected. Invalid terms will be replaced by valid ones formulated in a way that will achieve the primary purpose.
+             
+14.2  Collateral agreements, changes and amendments are only valid if laid down in writing. The preceding clause can only be waived in writing.
+
+</mutableString>
+                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="N5F-QU-aQO" firstAttribute="leading" secondItem="BAT-nO-JLW" secondAttribute="leading" constant="20" id="DKq-fI-CXN"/>
+                                            <constraint firstAttribute="bottom" secondItem="N5F-QU-aQO" secondAttribute="bottom" constant="8" id="Yx8-vo-jv1"/>
+                                            <constraint firstItem="N5F-QU-aQO" firstAttribute="top" secondItem="BAT-nO-JLW" secondAttribute="top" constant="165" id="zKJ-FD-qT1"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="d1y-VF-k8F"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="nXV-Pl-5vu"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BAT-nO-JLW" firstAttribute="leading" secondItem="TL1-US-dJo" secondAttribute="leading" id="1ii-i0-MuA"/>
+                            <constraint firstItem="TL1-US-dJo" firstAttribute="bottom" secondItem="oC1-xI-ZaU" secondAttribute="bottom" constant="5" id="7BL-HZ-wro"/>
+                            <constraint firstItem="BAT-nO-JLW" firstAttribute="bottom" secondItem="TL1-US-dJo" secondAttribute="bottom" constant="-5" id="FD0-CW-xLK"/>
+                            <constraint firstItem="BAT-nO-JLW" firstAttribute="width" secondItem="F4j-SD-WsO" secondAttribute="width" id="Hoh-bc-AcS"/>
+                            <constraint firstItem="oC1-xI-ZaU" firstAttribute="top" secondItem="TL1-US-dJo" secondAttribute="top" constant="38" id="UiY-Li-oWs"/>
+                            <constraint firstItem="TL1-US-dJo" firstAttribute="top" secondItem="BAT-nO-JLW" secondAttribute="top" constant="136" id="Xkt-6y-40P"/>
+                            <constraint firstItem="TL1-US-dJo" firstAttribute="trailing" secondItem="oC1-xI-ZaU" secondAttribute="trailing" constant="20" id="dI9-K8-bj4"/>
+                            <constraint firstItem="oC1-xI-ZaU" firstAttribute="bottom" secondItem="TL1-US-dJo" secondAttribute="bottom" id="isQ-ox-YVy"/>
+                            <constraint firstItem="TL1-US-dJo" firstAttribute="trailing" secondItem="BAT-nO-JLW" secondAttribute="trailing" id="pLF-DU-dqS"/>
+                            <constraint firstItem="BAT-nO-JLW" firstAttribute="height" secondItem="F4j-SD-WsO" secondAttribute="height" multiplier="0.986471" priority="250" constant="75" id="twW-J4-Oyy"/>
+                            <constraint firstItem="oC1-xI-ZaU" firstAttribute="leading" secondItem="TL1-US-dJo" secondAttribute="leading" constant="20" id="zMl-Q5-UUP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TL1-US-dJo"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gwQ-hx-4Ve"/>
+                    <size key="freeformSize" width="414" height="8500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qav-jP-Kmn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6000" y="80"/>
+        </scene>
     </scenes>
     <resources>
         <image name="square.and.arrow.up.fill" catalog="system" width="56" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="7d7-FA-VrB"/>
-        <segue reference="doH-6a-bed"/>
+        <segue reference="98k-tK-izz"/>
         <segue reference="rSz-7V-U4C"/>
     </inferredMetricsTieBreakers>
 </document>
